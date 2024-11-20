@@ -1,0 +1,13 @@
+# API reference: https://developers.google.com/maps/documentation/geocoding/start?hl=en
+# REST Client reference: https://marketplace.visualstudio.com/items?itemName=humao.rest-client
+
+@host = https://places.googleapis.com
+@searchText = 1600+Amphitheatre+Parkway,+Mountain+View,+CA
+@contentType = application/json
+@APIKEY = {{$processEnv FERGUSON_GOOGLE_MAPS_API_KEY}}
+# @APIKEY = {{$processEnv GOOGLE_MAPS_API_KEY}}
+
+## Get location by text search
+GET https://maps.googleapis.com/maps/api/geocode/json?address={{searchText}}&key={{APIKEY}}
+Accept: {{contentType}}
+Referer: https://www.ferguson.com

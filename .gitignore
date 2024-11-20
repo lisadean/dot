@@ -1,0 +1,9 @@
+.env
+.secrets
+**/secrets
+
+src/.config/gh/hosts.yml
+src/.config/configstore/update-notifier-npm.json
+src/.config/configstore/nodemon.json
+
+misc/ConvertMarkDownTableToCSV.md
