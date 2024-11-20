@@ -1,0 +1,371 @@
+POST https://api.github.com/repos/buildcom/the-sorting-hat/actions/workflows/release-dry-run.yml/dispatches HTTP/1.1
+Accept: application/vnd.github.v3+json
+content-type: application/json
+Authorization: token {{$processEnv NPM_TOKEN_FERG_FULL}}
+
+{"ref":"SODEV-34573"}
+
+###
+
+POST https://api.github.com/repos/buildcom/the-sorting-hat/actions/workflows/release-dev.yml/dispatches HTTP/1.1
+Accept: application/vnd.github.v3+json
+content-type: application/json
+Authorization: token {{$processEnv NPM_TOKEN_FERG_FULL}}
+
+{"ref":"SODEV-34573"}
+
+###
+
+GET https://api.github.com/repos/buildcom/react-build-store/events HTTP/1.1
+Accept: application/vnd.github.v3+json
+Authorization: token {{$processEnv NPM_TOKEN_FERG_FULL}}
+
+###
+GET https://api.github.com/repos/buildcom/react-build-store/events HTTP/1.1
+Accept: application/vnd.github.v3+json
+Authorization: token {{$processEnv NPM_TOKEN_FERG_FULL}}
+
+###
+
+GET https://api.github.com/repos/buildcom/react-build-store/hooks HTTP/1.1
+Accept: application/vnd.github.v3+json
+Authorization: token {{$processEnv NPM_TOKEN_FERG_FULL}}
+
+###
+
+GET https://api.github.com/apps/balrogql-bot HTTP/1.1
+Accept: application/vnd.github.v3+json
+Authorization: token {{$processEnv NPM_TOKEN_FERG_FULL}}
+
+###
+
+GET https://api.github.com/repos/buildcom/react-build-store/pulls/4685/reviews HTTP/1.1
+Accept: application/vnd.github.v3+json
+Authorization: token {{$processEnv NPM_TOKEN_FERG_FULL}}
+
+###
+
+GET https://api.github.com/repos/buildcom/react-build-store/pulls/4685/reviews/1365464982/comments HTTP/1.1
+Accept: application/vnd.github.v3+json
+Authorization: token {{$processEnv NPM_TOKEN_FERG_FULL}}
+
+###
+
+GET https://api.github.com/repos/buildcom/product-services/pulls/207 HTTP/1.1
+Accept: application/vnd.github.v3+json
+Authorization: token {{$processEnv NPM_TOKEN_FERG_FULL}}
+
+###
+
+GET https://api.github.com/repos/buildcom/product-services/pulls/207/commits HTTP/1.1
+Accept: application/vnd.github.v3+json
+Authorization: token {{$processEnv NPM_TOKEN_FERG_FULL}}
+
+###
+
+GET https://api.github.com/repos/buildcom/product-services/events HTTP/1.1
+Accept: application/vnd.github.v3+json
+Authorization: token {{$processEnv NPM_TOKEN_FERG_FULL}}
+
+###
+
+POST https://api.github.com/repos/buildcom/react-build-store/statuses/4a7999290929b19836183403db65199d2bad58f6 HTTP/1.1
+Accept: Accept: application/vnd.github.v3+json
+Authorization: token {{$processEnv NPM_TOKEN_FERG_FULL}}
+
+{"state":"success"}
+
+###
+
+GET https://api.github.com/orgs/buildcom/settings/billing/actions HTTP/1.1
+Accept: Accept: application/vnd.github.v3+json
+Authorization: token {{$processEnv NPM_TOKEN_FERG_FULL}}
+
+###
+
+GET https://api.github.com/users/lisadean/settings/billing/actions HTTP/1.1
+Accept: Accept: application/vnd.github.v3+json
+Authorization: token {{$processEnv NPM_TOKEN_FERG_FULL}}
+
+###
+
+GET https://api.github.com/repos/buildcom/react-build-store/actions/runs/2105311595/timing HTTP/1.1
+Accept: Accept: application/vnd.github.v3+json
+Authorization: token {{$processEnv NPM_TOKEN_FERG_FULL}}
+
+###
+
+GET https://api.github.com/repos/buildcom/react-build-store/compare/e4fbea9421f1f0cfc7ef72d1cfcee54b89061457...ee58be0d5ed4b972451737e084aae64134c97cff HTTP/1.1
+Accept: application/vnd.github.v3+json
+content-type: application/json
+Authorization: token {{$processEnv NPM_TOKEN_FERG_FULL}}
+
+###
+
+
+GET https://api.github.com/repos/lisadean/coderoaster/events HTTP/1.1
+Accept: application/vnd.github.v3+json
+Authorization: token {{$processEnv NPM_TOKEN_FERG_FULL}}
+
+###
+
+GET http://config.sys.ds.wolseley.com/react-build-store/local/ HTTP/1.1
+Authorization: Basic Y29uZmlnOkNoZXZlMWxlIQ==
+
+###
+GET http://config.sys.ds.wolseley.com/react-build-store/production/ HTTP/1.1
+Authorization: Basic Y29uZmlnOkNoZXZlMWxlIQ==
+
+###
+
+GET http://config.sys.ds.wolseley.com/build-node-store/local/ HTTP/1.1
+Authorization: Basic Y29uZmlnOkNoZXZlMWxlIQ==
+
+###
+
+GET http://config.sys.ds.wolseley.com/store-features/production/ HTTP/1.1
+Authorization: Basic Y29uZmlnOkNoZXZlMWxlIQ==
+
+###
+
+GET http://graphql.build.com/graphql HTTP/1.1
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImVtcGxveWVlSWQiOiI1MjIwIiwiY3VzdG9tZXJJZCI6MCwicHJpY2VCb29rSWQiOjF9LCJpYXQiOjE2OTIzMDQ5ODN9.AhvDeCUsFD8VdiIQrIXNBzO_K0hbSfQbSB-XIHA7nks
+
+###
+
+POST https://npndev.build.com/graphql HTTP/1.1
+content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImVtcGxveWVlSWQiOiI1MjIwIiwiY3VzdG9tZXJJZCI6MCwicHJpY2VCb29rSWQiOjF9LCJpYXQiOjE2OTIzMDQ5ODN9.AhvDeCUsFD8VdiIQrIXNBzO_K0hbSfQbSB-XIHA7nks
+X-REQUEST-TYPE: GraphQL
+
+query Features($featureNames: [String!]!, $path: String!) {
+  features(featureNames: $featureNames, path: $path)
+}
+
+{"featureNames":["enable-vizury-opt-in-popup"],"path":"/"}
+
+###
+
+POST http://react-build-store-pr-50.sys.id.build.com:3001/graphql HTTP/1.1
+content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImVtcGxveWVlSWQiOiI1MjIwIiwiY3VzdG9tZXJJZCI6MCwicHJpY2VCb29rSWQiOjF9LCJpYXQiOjE2OTIzMDQ5ODN9.AhvDeCUsFD8VdiIQrIXNBzO_K0hbSfQbSB-XIHA7nks
+X-REQUEST-TYPE: GraphQL
+
+query Features($featureNames: [String!]!, $path: String!) {
+  features(featureNames: $featureNames, path: $path)
+}
+
+{"featureNames":["enable-vizury-opt-in-popup"],"path":"/"}
+
+###
+POST http://react-build-store-pr-50.sys.id.build.com:3000/graphql HTTP/1.1
+content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImVtcGxveWVlSWQiOiI1MjIwIiwiY3VzdG9tZXJJZCI6MCwicHJpY2VCb29rSWQiOjF9LCJpYXQiOjE2OTIzMDQ5ODN9.AhvDeCUsFD8VdiIQrIXNBzO_K0hbSfQbSB-XIHA7nks
+X-REQUEST-TYPE: GraphQL
+
+query Features($featureNames: [String!]!, $path: String!) {
+  features(featureNames: $featureNames, path: $path)
+}
+
+{"featureNames":["enable-vizury-opt-in-popup"],"path":"/"}
+
+###
+
+# curl -L \
+#   -X POST \
+#   -H "Accept: application/vnd.github+json" \
+#   -H "Authorization: Bearer <YOUR-TOKEN>" \
+#   -H "X-GitHub-Api-Version: 2022-11-28" \
+#   https://api.github.com/repos/OWNER/REPO/check-runs \
+#   -d '{"name":"mighty_readme","head_sha":"ce587453ced02b1526dfb4cb910479d431683101","status":"in_progress","external_id":"42","started_at":"2018-05-04T01:14:52Z","output":{"title":"Mighty Readme report","summary":"","text":""}}'
+
+GET https://api.github.com/repos/buildcom/react-build-store/events HTTP/1.1
+Accept: application/vnd.github.v3+json
+Authorization: token {{$processEnv NPM_TOKEN_FERG_FULL}}
+
+###
+
+GET https://api.github.com/repos/fergdigitalcommerce/bwf-web-store/events HTTP/1.1
+Accept: application/vnd.github.v3+json
+Authorization: token {{$processEnv NPM_TOKEN_FERG_FULL}}
+
+###
+
+GET https://api.github.com/repos/fergdigitalcommerce/bwf-build-tachyons/pulls/131 HTTP/1.1
+Accept: application/vnd.github.v3+json
+Authorization: token {{$processEnv NPM_TOKEN_FERG_FULL}}
+
+###
+GET https://api.github.com/repos/fergdigitalcommerce/BWF-build-tachyons/events HTTP/1.1
+Accept: application/vnd.github.v3+json
+Authorization: token {{$processEnv NPM_TOKEN_FERG_FULL}}
+
+###
+
+GET https://api.github.com/orgs/fergdigitalcommerce/teams/bwf-react-developers HTTP/1.1
+Accept: application/vnd.github.v3+json
+Authorization: token {{$processEnv NPM_TOKEN_FERG_FULL}}
+X-GitHub-Api-Version: 2022-11-28
+
+###
+
+POST https://dy-api.com/v2/serve/user/choose
+content-type: application/json
+DY-API-Key: 8d6c13c2646ea0434cb0e719875d73e627f3a5e7cb246783d71a9f6eeb706673
+
+{
+	"user": {
+		"dyid": "7246291973907053879",
+		"dyid_server": "7246291973907053879"
+	},
+	"session": {
+		"dy": "1fb2z15p34n7ewqq0kxeua3drtktluke"
+	},
+	"selector": {
+		"names": [
+			"jfy-entry-main"
+		]
+	},
+	"context": {
+		"page": {
+			"type": "OTHER",
+			"data": [],
+			"location": "/"
+		},
+		"device": {
+			"userAgent": "node-fetch/1.0(+https: //github.com/bitinn/node-fetch)",
+			"ip": "38.102.37.20"
+		}
+	}
+}
+
+###
+
+POST https://dy-api.com/v2/serve/user/choose
+content-type: application/json
+DY-API-Key: 69b1cbea11e60d21ac70fad73464c888bda9a5d7b21877fbce2e4bd00d0a359c
+
+{
+	"user": {
+		"dyid": "-1306043654012369277",
+		"dyid_server": "-1306043654012369277"
+	},
+	"session": {
+		"dy": "p79ky3gi9y4f24rfx8coena6u1bh6ivl"
+	},
+	"selector": {
+		"names": [
+			"jfy-entry-sidebar"
+		]
+	},
+	"context": {
+		"page": {
+			"type": "OTHER",
+			"data": [],
+			"location": "/"
+		},
+		"device": {
+			"userAgent": "node-fetch/1.0(+https: //github.com/bitinn/node-fetch)",
+			"ip": "73.184.147.166"
+		}
+	},
+	"options": {
+		"returnAnalyticsMetadata": true,
+		"isImplicitPageview": false
+	}
+}
+
+###
+
+POST https://dy-api.com/v2/collect/user/engagement
+content-type: application/json
+DY-API-Key: 8d6c13c2646ea0434cb0e719875d73e627f3a5e7cb246783d71a9f6eeb706673
+
+{
+	"user": {
+		"dyid": "-1306043654012369277",
+		"dyid_server": "-1306043654012369277"
+	},
+	"session": {
+		"dy": "p79ky3gi9y4f24rfx8coena6u1bh6ivl"
+	},
+	"context": {
+		"device": {
+			"userAgent": "node-fetch/1.0(+https: //github.com/bitinn/node-fetch)",
+			"ip": "73.184.147.166"
+		}
+	},
+	"engagements": [{
+			"type": "CLICK",
+			"decisionId": "mbQtNjg5NDE0NDA2MDExOTA2NDAxMs4AGRm5qDEyNzk0MDY0AZCRzgGyALulNDUwNzXAwA=="
+	}]
+	}
+
+###
+# just-for-you page with analytics
+
+POST https://dy-api.com/v2/serve/user/choose
+content-type: application/json
+# PROD
+# DY-API-Key: 69b1cbea11e60d21ac70fad73464c888bda9a5d7b21877fbce2e4bd00d0a359c
+# TEST
+DY-API-Key: 8d6c13c2646ea0434cb0e719875d73e627f3a5e7cb246783d71a9f6eeb706673
+
+
+{
+	"user": {
+		"dyid": "-1306043654012369277",
+		"dyid_server": "-1306043654012369277"
+	},
+	"session": {
+		"dy": "p79ky3gi9y4f24rfx8coena6u1bh6ivl"
+	},
+	"selector": {
+		"names": ["jfy-banner", "jfy-recommended-for-you", "jfy-pwrp"]
+	},
+	"context": {
+		"page": {
+			"type": "OTHER",
+			"data": [],
+			"location": "/just-for-you"
+		},
+		"device": {
+			"userAgent": "node-fetch/1.0(+https: //github.com/bitinn/node-fetch)",
+			"ip": "73.184.147.166"
+		}
+	},
+	"options": {
+		"returnAnalyticsMetadata": true,
+		"isImplicitPageview": false
+	}
+}
+
+###
+
+POST http://bweb-npn-d-1.sys.ds.wolseley.com:8080/contents/items/scheduled/active/match/composite
+content-type: application/json
+DY-API-Key: 8d6c13c2646ea0434cb0e719875d73e627f3a5e7cb246783d71a9f6eeb706673
+
+{
+	"user": {
+		"dyid": "-1306043654012369277",
+		"dyid_server": "-1306043654012369277"
+	},
+	"session": {
+		"dy": "p79ky3gi9y4f24rfx8coena6u1bh6ivl"
+	},
+	"context": {
+		"device": {
+			"userAgent": "node-fetch/1.0(+https: //github.com/bitinn/node-fetch)",
+			"ip": "73.184.147.166"
+		}
+	},
+	"engagements": [{
+			"type": "CLICK",
+			"decisionId": "mbQtNjg5NDE0NDA2MDExOTA2NDAxMs4AGRm5qDEyNzk0MDY0AZCRzgGyALulNDUwNzXAwA=="
+	}]
+	}
+
+###
+
+
