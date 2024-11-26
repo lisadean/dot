@@ -1,0 +1,14 @@
+rectangle-pro
+1password
+dropbox
+visual-studio-code
+postman
+docker
+discord
+raindropio
+whatsapp
+homebrew/cask-fonts/font-fira-code
+github
+parallels
+keyclu
+google-chrome

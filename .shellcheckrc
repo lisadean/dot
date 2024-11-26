@@ -1,3 +1,7 @@
 # Allow looking for external files
 # https://www.shellcheck.net/wiki/SC1091
 external-sources=true
+
+disable=SC2155 # Declare and assign separately to avoid masking return values
+disable=SC1091 # Not following: <filename>: openBinaryFile: does not exist (No such file or directory)
+disable=SC1090 #ShellCheck can't follow non-constant source. Use a directive to specify location

@@ -1,0 +1,26 @@
+[color]
+	ui = auto
+[core]
+	; excludesfile = ~/.config/git/.gitignore.global
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[init]
+	defaultBranch = main
+[pull]
+	rebase = false
+[url "git@github.com:"]
+    insteadOf = https://github.com/
+[url "git@FergDigitalCommerce:FergDigitalCommerce"]
+    insteadOf = git@github.com:FergDigitalCommerce
+		insteadOf = https://github.com/FergDigitalCommerce
+    # insteadOf = git@github.com:buildcom
+		# insteadOf = https://github.com/buildcom
+
+# https://blog.hao.dev/how-to-use-different-git-emails-for-personal-and-work-repositories-on-the-same-machine
+[includeIf "gitdir:/personal/"]
+	path = config-personal
+[includeIf "gitdir:/work/"]
+	path = config-work

@@ -1,6 +1,8 @@
 .env
 .secrets
 **/secrets
+secrets.sh
+**/secrets.sh
 
 src/.config/gh/hosts.yml
 src/.config/configstore/update-notifier-npm.json
