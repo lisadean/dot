@@ -78,3 +78,6 @@ alias disablehusky='git config --unset core.hooksPath'
 alias enablehusky='git config core.hooksPath .husky'
 
 alias cat='bat --paging=never'
+function catcat() {
+   /bin/cat "$@"
+}

@@ -1,3 +1,21 @@
+https://www.typescriptlang.org/play/?ssl=17&ssc=27&pln=17&pc=37#code/C4TwDgpgBAcgrgGwQQwEYIgHgCoD4oC8UA3gFACQA2gApQCWAdlANYQgD2AZlNgLoBcPGrygAfKA0QIA3KQC+s0qEhQAUgGd2DAGrIEcaEXXAATowDmYiXAC2qCCaup27DMibjJSK3AYATCE5GCD8rDS0AeVQAKwgAY2AwzQYAQRMTZBBZZWhw1PTMwig0jJBMPN19CFxs8FzkqNiEouIoSlYQQWMzBnMBNWTKgygFUlIAegAqUihJ4qhzCAYHOjioHPX2KHsoZDAwBDoQzd3vRjA4RPdQ9kuLxJz1KE52RwAlAFEAZWwoOL0EOoAHQzObYAAWdCeGwA7nRvEsXiY4tBgODcl8IjAoN04Ak4CZoHC0bdEvYLFB2JAmEsAn4QbMoAAZCDIABuFLyjXiiSpSygtOOAPYMKeyDiKPUTy4UDAJj5JmAR2h4OQiT8WwY7ESEAAHlDgAywZCnv84OoIE9UHBzE8YejCX92AEoHDvGBkFLTgh1nV1HEzGBEnF0XFmBTrYk3T7OMh4aDXeimObjn5hsAtmjoH41cgJNqBfrjBYjTwIgARCKCTHlj7aAC0ABYAEzNgDMAHYoPXdvsECB1ibfSoM97CwaKSlqABJHh+0HjJR1YpgOjYOo4Zd64C0p5cmI8-BEdeQWoqeBINAYfdNRJEYjtNhdUwWfoVPTDTxSUYbC8odAQCkq4nlgIGFju-hPH+V4QDeh5FCBigbF8wBwJw3BGC+vROC4bgMEhy5Muw-xKlo5a5mBRDQQBQFrhuZDkDCyCEuCtwWikEq3AwwDTn41aoehsiMcxECsSmvHPj05hCYS5h0FoggMeQsnyQwEk4lh0kUMpEByVoMDIDYECSRYQmjOQzDsKg6iKdpCDEWqqkgSZvRCeQYCscs8B2A4LlaeQ5D+uiaYYH5ZmULwQkBMAcaAgA-II1EYJgSkhvCfhESRqm8QlGlSW59lhg41CrMwACqYC5d0pnaQqjm9AAErcJjqLlSVYEp5A5iAEScAA6hAEDMFVmlueQfIME1BIjfl2nkHE9kWlNJgzTVAXjdSADCi0QAAYig5ira5c0TSknA7iYy1Hf5AULew7HnQ4V38WhnBjRNbzxBAdAco1zXXWNd0Wp9KI-RYz15Wt5ByLgEVmbDkXyDUYxjHEWjGOsEA2GAgiZY5ZEUcu94zFApPGK9ggAORohY6iUwANCTpNMSxbGAZxvg8XxUCU9VvQMxQLOiWz6m85pAs6XpDC2QFKlaKLfPmBLkuqQZRlU4rEtyIzFlWTZbRKYV+MMM5POazr7meRA3n2CYGvixbQUhIgxnWEgOtyLwOvRbF+upZCCAZQ5pFqdzYtScrhWsCYJVhhV9sRxbdVKn9BL65QnXdb1A1DQnFjKxtSzLXn-MW-NO3F2bDsnVtO37cg5gl0rZenY9l3NU3BdA4BbeV+H+ct9SIPfb95h9+bc3d8PYOp3bVeJ9pnuM6TpNyAoQA | TypeScript: TS Playground - An online editor for exploring TypeScript and JavaScript
+https://www.typescriptlang.org/docs/handbook/2/generics.html | TypeScript: Documentation - Generics
+
+https://mapsplatform.google.com/maps-products/#maps-section | Custom Map Tools & Products - Google Maps Platform
+https://developers.google.com/maps/web-services/client-library?hl=en | Client Libraries for Google Maps Web Services  |  Google Maps Web Service APIs  |  Google for Developers
+https://developers.google.com/maps/documentation/geocoding/start?hl=en | Get Started  |  Geocoding API  |  Google for Developers
+https://developers.google.com/maps/documentation/geocoding/get-api-key | Use API Keys with Geocoding API  |  Google for Developers
+
+https://github.com/FergMain/isc-template | FergMain/isc-template: Template for shared actions repositories.
+https://github.com/FergDigitalCommerce/dc-deployment-actions | FergDigitalCommerce/dc-deployment-actions: actions for DC workflows
+
+https://forum.bubble.io/t/how-do-resolve-the-google-map-error-api-keys-with-referer-restrictions-cannot-be-used-with-this-api/48846 | How do resolve the Google MAP error: “API keys with referer restrictions cannot be used with this API.”? - Need help - Bubble Forum
+
+https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners#codeowners-syntax | About code owners - GitHub Docs
+https://git-scm.com/docs/gitignore#_pattern_format | Git - gitignore Documentation
+https://stackoverflow.com/questions/26908151/a-way-to-validate-gitignore-file | git - A way to validate .gitignore file - Stack Overflow
+https://gist.github.com/jstnlvns/ebaa046fae16543cc9efc7f24bcd0e31 | a gitignore cheatsheet
+
 https://stackoverflow.com/questions/962255/how-to-store-standard-error-in-a-variable | bash - How to store standard error in a variable - Stack Overflow
 https://stackoverflow.com/questions/42944800/output-redirection-to-console-in-shell-script-not-reflecting-realtime | Output redirection to console in shell script , not reflecting realtime - Stack Overflow
 https://stackoverflow.com/questions/2342826/how-can-i-pipe-stderr-and-not-stdout | bash - How can I pipe stderr, and not stdout? - Stack Overflow

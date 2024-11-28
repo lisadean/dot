@@ -24,3 +24,6 @@
 	path = config-personal
 [includeIf "gitdir:/work/"]
 	path = config-work
+[user]
+	mail = lisa.dean@supply.com
+	name = Lisa Dean
