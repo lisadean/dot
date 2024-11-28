@@ -1,0 +1,270 @@
+https://fergusonprod.atlassian.net/jira/projects | Projects - Ferguson Prod
+https://ssobroker.dynamicyield.com/auth/realms/admin/protocol/openid-connect/auth?client_id=alb&redirect_uri=https%3A%2F%2Fadm.dynamicyield.com%2Foauth2%2Fidpresponse&response_type=code&scope=openid%20email&state=6veTs1%2FTofgIe%2BYAbzWHQBJCKNzunefAVf2lG%2BchwsaReubSuS5tbI%2FFMLoCsJU7Ud23r3JGWChkm%2B7nn9KtqaUh7O4wjhOPcByW92yP8hZVUOheSdQ%2BSzh9EDaa4NRqiaFsLkMMaVnX0cUNH2MxkC2RNPzaZOtAqeiB%2Bjv1Tzg7HaQS4m5DryMer9JtA%2BROzm4bQjLVh%2FHxJpZ8tDMAaKmLbJ3Ret6OCkQuCocvuyCXw092XOyBBuLMMAfKaoDXP3I02zH29e2AuMsSQpAMPNG3tqnfOivhvPbfMAs%3D#/r/home/dashboard | Sign in to DY
+https://ferguson-prod.datadoghq.com/account/login?next=%2Fapm%2Ftraces%3Fquery%3Denv%253Aprd%2520service%253Anode-store%2520operation_name%253Aexpress.request%2520%2540http.host%253Awww.build.com%2520-%2540http.status_code%253A4%252A%2520-%2540http.route%253A%252Fapp%252Fapi%252F%252A%2520-%2540http.route%253A%2522%252Ffavicon.ico%2522%2520-%2540http.route%253A%2522%252Fapple-touch-icon%252A%2522%2520-%2540http.route%253A%2522%252Findex.cfm%2522%2520-%2540http.route%253A%2522%252Fmanifest.json%2522%2520-%2540http.route%253A%2522%252Frobots.txt%2522%2520-%2540http.route%253A%2522%252Fnode-store-service-worker.js%2522%2520-%2540http.route%253A%2522%252Foffline%252F%2522%2520-%2540http.route%253A%2522%252F%253Aslug%252Fa%253AarticleId%2528%255B0-9%255D%252B%2529%2522%2520-%2540http.route%253A%2522%252Fcheckout%252Freceipt%2522%2520-%2540http.route%253A%2522%252Faccount%252Freturns%252Flabel%252F%253AreturnId%2528%255B0-9%255D%252B%2529%2522%2520-%2540http.route%253A%2522%252Faccount%252Forder%252F%253AorderNumber%2528%255B0-9%255D%252B%2529%252Freturn%2522%2520-%2540http.route%253A%2522%252Faccount%252Forder%252FspecSheets%252F%253AorderNumber%2528%255B0-9%255D%252B%2529%2522%2520-%2540http.route%253A%2522%252Fsupport%252F%253Apage%2522%2520-%2540http.route%253A%2522%252F%253Aslug%252Fz%253Acomposite%2528%255B0-9%255D%252B%2529%2522%2520-%2540http.route%253A%2522%252Faccount%252Forders%252FcreateReceipt%2522%2520-%2540http.route%253A%2522%252Fproduct%252Freviews%2522%2520%26agg_m%3Dcount%26agg_q%3D%2540http.route%26agg_t%3Dcount%26cols%3Dcore_service%252Ccore_resource_name%252Clog_duration%252Clog_http.method%252Clog_http.status_code%26historicalData%3Dtrue%26messageDisplay%3Dinline%26panel%3D%257B%2522queryString%2522%253A%2522%2540http.route%253A%255C%2522%252F%253Aslug%252Fs%253Acomposite%2528%255B0-9%255D%252B%2529%252Fconfigure%255C%2522%2522%252C%2522filters%2522%253A%255B%257B%2522isClicked%2522%253Atrue%252C%2522source%2522%253A%2522log%2522%252C%2522path%2522%253A%2522http.route%2522%252C%2522value%2522%253A%2522%252F%253Aslug%252Fs%253Acomposite%2528%255B0-9%255D%252B%2529%252Fconfigure%2522%257D%255D%252C%2522queryId%2522%253A%2522a%2522%252C%2522timeRange%2522%253A%257B%2522from%2522%253A1705961982000%252C%2522to%2522%253A1706566782000%252C%2522live%2522%253Atrue%257D%257D%26query_translation_version%3Dv0%26saved-view-id%3D9207%26sort%3Ddesc%26spanType%3Dall%26step%3Dauto%26top_n%3D100%26top_o%3Dtop%26traceQuery%3D%26view%3Dspans%26viz%3Dtoplist%26start%3D1706113594488%26end%3D1706718394488%26paused%3Dfalse | Datadog: Log In
+https://ferguson-prod.datadoghq.com/account/login?next=%2Fapm%2Ftraces%3Fquery%3Denv%253Aprd%2520operation_name%253Aexpress.request%2520%2540http.host%253Awww.build.com%2520-%2540http.status_code%253A4%252A%2520%2540http.url%253A%252Aaccount%252Fprojects%252A%2520service%253Anode-store%26agg_m%3Dcount%26agg_m_source%3Dbase%26agg_q%3D%2540http.url%26agg_q_source%3Dbase%26agg_t%3Dcount%26cols%3D%2540http.url%252Cservice%252Cresource_name%252C%2540duration%252C%2540http.method%252C%2540http.status_code%252C%2540_span.count%252C%2540_duration.by_service%26graphType%3Dflamegraph%26historicalData%3Dtrue%26messageDisplay%3Dinline%26query_translation_version%3Dv0%26saved-view-id%3D9207%26shouldShowLegend%3Dtrue%26sort%3Dtime%26sort_m%3Dcount%26sort_t%3Dcount%26spanType%3Dall%26step%3Dauto%26top_n%3D10%26top_o%3Dtop%26traceQuery%3D%26view%3Dspans%26viz%3Dtoplist%26x_missing%3Dtrue%26start%3D1706113599824%26end%3D1706718399824%26paused%3Dfalse | Datadog: Log In
+https://www.build.com/account/projects/ | Build with Ferguson
+https://github.com/enterprises/fergusonemu/sso?return_to=https%3A%2F%2Fgithub.com%2FFergDigitalCommerce%2FBWF-build-f5-datagroups%2Fblob%2Fmaster%2Fcore%2Fruta_path.json | Sign in to Ferguson Enterprises
+https://styleguide.build.com/?path=%2Fstory%2Fcomponents-account-components-create-account-form--default-create-account-form | @storybook/cli - Storybook
+https://support.dynamicyield.com/hc/en-us | Dynamic Yield Knowledge Base
+https://github.com/enterprises/fergusonemu/sso?return_to=https%3A%2F%2Fgithub.com%2FFergDigitalCommerce%2Fbwf-web-store%2Fpull%2F6344%2Ffiles | Sign in to Ferguson Enterprises
+https://fergusonprod.atlassian.net/jira/software/c/projects/EFDC/boards/1632/backlog | Web Platform - Backlog - Ferguson Prod
+https://github.com/search?q=repo%3AFergDigitalCommerce%2FBWF-build-f5-irules%20replace&type=code | Code search results
+
+https://marketplace.visualstudio.com/items?itemName=firsttris.vscode-jest-runner | Jest Runner - Visual Studio Marketplace
+https://github.com/firsttris/vscode-jest-runner?tab=readme-ov-file | firsttris/vscode-jest-runner: Simple way to run or debug one or more tests from context menu, codelens or command plalette
+https://github.com/firsttris/vscode-jest-runner/blob/master/src/jestRunner.ts#L206 | vscode-jest-runner/src/jestRunner.ts at master · firsttris/vscode-jest-runner
+https://github.com/firsttris/vscode-jest-runner/issues/220 | jestRunnerConfig.ts does not support package.json · Issue #220 · firsttris/vscode-jest-runner
+https://www.dropbox.com/preview/me/media/Reading%20Material/Software%20Engineering/DDD%20Distilled.pdf?role=personal | DDD Distilled.pdf
+
+https://github.com/FergDigitalCommerce/bwf-web-store/pull/6191/files#diff-122bd8418b16a21bc4c700ee00492ad8a5bfd6a067d12d27fe843455b8791b94 | EFDC-9815 - feat: Add analytics tags to JFY entry banners by Lisa-Dean-ABB2175_ferg · Pull Request #6191 · FergDigitalCommerce/bwf-web-store
+https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#union-types | TypeScript: Documentation - Everyday Types
+
+https://adm.dynamicyield.com/r?locale=en&redirectToSectionId=8772814#/r/api/logs | API Logs - Dynamic Yield
+https://support.dynamicyield.com/hc/en-us/articles/11809464222621-Google-Analytics-Integration-Legacy- | Google Analytics Integration (Legacy) – Dynamic Yield Knowledge Base
+https://support.dynamicyield.com/hc/en-us/articles/11809464222621 | Google Analytics Integration (Legacy) – Dynamic Yield Knowledge Base
+https://support.dynamicyield.com/hc/en-us/articles/4414377230353-Experience-APIs-Implementation-Guide | Experience APIs Implementation Guide – Dynamic Yield Knowledge Base
+https://support.dynamicyield.com/hc/en-us/requests/69075 | API Log delay / missing entries – Dynamic Yield Knowledge Base
+http://localhost:4000/shop-all-departments/c130789 | Departments | Build.com
+https://fergusonprod.atlassian.net/jira/software/c/projects/EFDC/boards/1717 | Acquisition & Personalization - Agile board - Ferguson Prod
+
+https://fergusonprod.atlassian.net/jira/software/c/projects/EFDC/boards/1632/backlog?selectedIssue=EFDC-9621&text=redirect | Web Platform - Agile board - Ferguson Prod
+https://github.com/FergDigitalCommerce/bwf-web-store/pull/6073/files#diff-02f8d295c4b52888b3e157a5c9114bdeaf0054bb135a716ceb2ea5e8ceb56c57 | EFDC-9117 - fix: update just-for-you page to use promoBanner by Eric-Hagen-ABH2644_ferg · Pull Request #6073 · FergDigitalCommerce/bwf-web-store
+https://support.dynamicyield.com/hc/en-us/articles/360021866674 | Google Analytics 4 Connector – Dynamic Yield Knowledge Base
+https://dy.dev/reference/dynamic-yield-events | List of Standard Events
+https://analytics.google.com/analytics/web/?authuser=1#/report/content-event-events/a533192w258568676p238224446/_r.drilldown=analytics.eventCategory:product%20finding%20methods,analytics.eventAction:recommendations/ | Analytics 360
+https://tagmanager.google.com/?authuser=1#/container/accounts/6000479411/containers/35696387/workspaces/443/variables | Tag Manager 360
+https://analytics.google.com/analytics/web/?authuser=1#/usersettings | Analytics 360
+https://dy.dev/reference/reporting-engagement | Reporting Engagement
+https://dy.dev/docs/petshop-step-7-targeting#ad-hoc-targeting | Targeting
+http://localhost:4000/shop-all-departments/c130789 | Departments | Build.com
+
+https://npndev.build.com/account/order/86685657/return | Build with Ferguson - Your Vision. Our Expertise. - Faucets, Fixtures, Lighting, Appliances, Door Hardware & More
+http://localhost:3000/search?term=black+toilet&r=24&s=SCORE&p=1 | Black Toilet
+
+https://fergusonprod.atlassian.net/jira/software/c/projects/EFDC/boards/1717/backlog?issueParent=335015&selectedIssue=EFDC-7652 | Acquisition & Personalization - Agile board - Ferguson Prod
+https://github.com/FergDigitalCommerce/bwf-web-store/pull/5861 | EFDC-7362 - feat: create sorting function for dy response by Eric-Hagen-ABH2644_ferg · Pull Request #5861 · FergDigitalCommerce/bwf-web-store
+https://github.com/FergDigitalCommerce/bwf-web-store/pull/5857/files | EFDC-7496 - feat: add employee authentication info to window on SSR by Dan-Green-AAQ5084_ferg · Pull Request #5857 · FergDigitalCommerce/bwf-web-store
+http://localhost:9001/?path=/story/pages-ecrm-setup-return-components-damaged-product-images-upload--default-damaged-product-images-upload-group | pages / ecrm / setup-return / components / damaged-product-images-upload - Default Damaged Product Images Upload Group ⋅ Storybook
+https://styleguide.build.com/?path=/story/docs-branding-styles--colors | Docs / Branding & Styles - Colors ⋅ Storybook
+https://tachyons.io/docs/table-of-styles/ | Table of Styles / Docs / TACHYONS
+https://s3.img-b.com/image/private/t_base,c_lpad,f_auto,dpr_auto,w_100,h_100/siteassets/global/returns/freightClaims/customerUploads/86685657/4b8c4146-321f-460d-a46b-0c3c9fbf26a5-0-1 | 4b8c4146-321f-460d-a46b-0c3c9fbf26a5-0-1 (100×100)
+https://s3.img-b.com/image/upload/v1698681156/siteassets/global/returns/freightClaims/customerUploads/86685657/4b8c4146-321f-460d-a46b-0c3c9fbf26a5-0-1.jpg | 4b8c4146-321f-460d-a46b-0c3c9fbf26a5-0-1.jpg (170×113)
+
+https://npndev.build.com/account/order/86685657/return | Build with Ferguson - Your Vision. Our Expertise. - Faucets, Fixtures, Lighting, Appliances, Door Hardware & More
+http://bweb-npn-d-1.sys.ds.wolseley.com:8080/swagger-ui/index.html#/utility-service-controller | Swagger UI
+https://styleguide.build.com/?path=/story/pages-ecrm-setup-return-components-return-eligible-items--default-return-eligible-items | pages / ecrm / setup-return / components / return-eligible-items - Default Return Eligible Items ⋅ Storybook
+https://github.com/FergDigitalCommerce/bwf-web-store/blob/main/src/client/components/project-components/projects-custom-product-modal/projects-custom-product-modal.component.tsx#L177 | bwf-web-store/src/client/components/project-components/projects-custom-product-modal/projects-custom-product-modal.component.tsx at main · FergDigitalCommerce/bwf-web-store
+
+https://docs.npmjs.com/cli/v8/commands/npm-install#workspaces | npm-install | npm Docs
+https://github.com/FergDigitalCommerce/bwf-web-store/pulls?q=is%3Apr+is%3Aclosed | Pull requests · FergDigitalCommerce/bwf-web-store
+https://fergusonprod.atlassian.net/jira/software/c/projects/EFDC/boards/1632 | Web Platform - Agile board - Ferguson Prod
+https://stackoverflow.com/questions/75446331/when-using-npm-workspaces-how-to-force-a-package-to-be-installed-in-the-relativ | node modules - When using npm workspaces, how to force a package to be installed in the relative node_modules? - Stack Overflow
+https://github.com/lerna/lerna/blob/main/libs/commands/publish/src/index.ts#L739 | lerna/libs/commands/publish/src/index.ts at main · lerna/lerna
+https://github.com/FergDigitalCommerce/bwf-web-platform/pulls?q=is%3Apr+is%3Aclosed | Pull requests · FergDigitalCommerce/bwf-web-platform
+https://github.com/FergDigitalCommerce/bwf-web-platform | FergDigitalCommerce/bwf-web-platform: Platform Web maintained and supported set of starter kyts, CLIs, server functionality, and assorted utilities
+https://lerna.js.org/docs/api-reference/commands | Commands | Lerna
+https://github.com/lerna/lerna/tree/main/libs/commands/publish#readme | lerna/libs/commands/publish at main · lerna/lerna
+https://github.com/lerna/lerna/tree/main/libs/commands/version#--conventional-commits | lerna/libs/commands/version at main · lerna/lerna
+
+https://fergusonprod.atlassian.net/browse/EFDC-6394 | [EFDC-6394] Nodestore - evaluate updating to underscore 1.12.1 - Ferguson Prod
+https://lerna.js.org/docs/features/run-tasks#run-a-multiple-tasks-concurrently | Run Tasks | Lerna
+https://lerna.js.org/docs/features/run-tasks | Run Tasks | Lerna
+https://nx.dev/nx-api/js/executors/verdaccio | @nx/js:verdaccio | Nx
+https://github.com/nrwl/nx/blob/master/packages/js/src/executors/verdaccio/verdaccio.impl.ts#L113 | nx/packages/js/src/executors/verdaccio/verdaccio.impl.ts at master · nrwl/nx
+https://medium.com/@knidarkness/nx-dev-vs-turborepo-for-a-green-field-projects-in-2022-c73dd858b687 | Choosing monorepo tooling: nx.dev vs Turborepo for a green field projects in 2022 | by Sergey Dubovyk | Medium
+https://www.youtube.com/watch?v=SaHoUx-TUs8 | Storybook can do.... WHAT??? - YouTube
+https://www.youtube.com/watch?v=ocllb5KEXZk | Build your own CLI - YouTube
+https://blog.nrwl.io/nx-16-5-release-7887a27cb5 | Nx 16.5 Release!!!. We have launched SO MANY features since… | by Zack DeRose | Nx Devtools
+https://www.youtube.com/watch?v=t1c925TzrzE | NEW Nx Verdaccio Support - YouTube
+https://docs.npmjs.com/cli/v7/using-npm/workspaces#adding-dependencies-to-a-workspace | workspaces | npm Docs
+https://stackoverflow.com/questions/14381898/local-dependency-in-package-json | node.js - Local dependency in package.json - Stack Overflow
+https://docs.npmjs.com/cli/v9/configuring-npm/package-json#local-paths | package.json | npm Docs
+https://stackoverflow.com/questions/58917736/lerna-bootstrap-does-not-link-local-dependencies | javascript - Lerna bootstrap does not link local dependencies? - Stack Overflow
+https://www.google.com/search?q=package.json+dependencies+version&rlz=1C5GCEM_en&oq=package.json+dependencies+version&aqs=chrome..69i57j0i512l2j0i22i30l7.9078j0j7&sourceid=chrome&ie=UTF-8 | package.json dependencies version - Google Search
+https://docs.npmjs.com/cli/v10/configuring-npm/package-json#local-paths | package.json | npm Docs
+https://github.com/npm/node-semver#versions | npm/node-semver: The semver parser for node (the one npm uses)
+https://www.checkiday.com/e0528a078e051d09f312c4d75509115a/fish-tank-floorshow-night | Fish Tank Floorshow Night | Holiday | Checkiday.com
+https://github.com/FergDigitalCommerce/BWF-node-store/blob/master/src/server.js | BWF-node-store/src/server.js at master · FergDigitalCommerce/BWF-node-store
+https://www.allergyandair.com/ | Air Purifiers & Indoor Air Quality :: Allergy And Air
+https://www.bonappetit.com/recipe/garlic-confit-2 | Garlic Confit Recipe | Bon Appétit
+https://www.bonappetit.com/story/garlic-peeling-trickhttps://www.bonappetit.com/story/garlic-peeling-trick | Page Not Found | Bon Appétit
+https://www.amazon.com/s?k=ice+cube+tray+silicone&crid=8QFVR5MB5HM8&sprefix=ice+cube+tray%2Caps%2C98&ref=nb_sb_ss_ts-doa-p_6_13 | Amazon.com : ice cube tray silicone
+https://www.google.com/search?q=ice+cube+trays+for+freezing+herbs&rlz=1C5GCEM_en&oq=ice+cube+trays+for+free&aqs=chrome.0.0i512j69i57j0i512j0i15i22i30l2j0i22i30l2j69i60.8854j1j7&sourceid=chrome&ie=UTF-8#oshopproduct=gid:2163921129838787418,mid:576462728239767131,oid:90256463135915692,iid:4023626528887121002,pvt:hg,pvo:10,pvs:true&oshop=apv&pvs=1&pvo=10 | ice cube trays for freezing herbs - Google Search
+https://www.amazon.com/Chefn-SpiceCube-Herb-Freezer-Tray/dp/B00HH7CVWE?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&smid=ATVPDKIKX0DER&th=1 | Amazon.com: Chef'n SpiceCube Herb Freezer Tray : Home & Kitchen
+https://www.amazon.com/OXO-Grips-Silicone-Small-Cocktails/dp/B01434TP7C?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&smid=ATVPDKIKX0DER&th=1 | Amazon.com: OXO Good Grips Silicone Small Ice Cube Tray for Cocktails with Lid: Home & Kitchen
+https://www.ambitiouskitchen.com/how-to-freeze-herbs/ | How to Freeze Herbs (+ ways to use them!) | Ambitious Kitchen
+https://www.outback.com/ | Outback Steakhouse
+https://www.chromatic.com/reviews?appId=6500feb9b710215233a99612 | GitHub App integration required • FergDigitalCommerce/bwf-web-store
+https://github.com/FergDigitalCommerce/bwf-web-store/settings/installations | GitHub Apps
+https://apnews.com/article/berlin-245c16f6e6481b1739f7db1de000edf1 | Huge Berlin aquarium bursts, unleashing flood of devastation | AP News
+
+https://github.com/FergDigitalCommerce/BWF-build-tachyons/settings/rules | Settings · Rulesets · FergDigitalCommerce/BWF-build-tachyons
+https://github.com/orgs/FergDigitalCommerce/teams/bwf-automated-users | bwf-automated-users · FergDigitalCommerce Team
+https://docs.github.com/en/rest/actions?apiVersion=2022-11-28 | Actions - GitHub Docs
+https://git-scm.com/book/en/v2/Git-Basics-Tagging | Git - Tagging
+https://stackoverflow.com/questions/18935539/authenticate-with-github-using-a-token | Authenticate with GitHub using a token - Stack Overflow
+https://www.google.com/search?q=git+debug&rlz=1C5GCEM_en&oq=git+debug&aqs=chrome..69i57j0i512l4j69i60l3.1372j0j7&sourceid=chrome&ie=UTF-8 | git debug - Google Search
+https://github.com/FergDigitalCommerce/bwf-web-store/blob/main/.github/workflows/_reusable-log-context.yml | bwf-web-store/.github/workflows/_reusable-log-context.yml at main · FergDigitalCommerce/bwf-web-store
+https://www.techwatching.dev/posts/github-actions-var-and-context | Alexandre Nédélec - 4 tips about GitHub Actions environment variables and contexts
+
+https://github.com/search?q=org%3AFergDigitalCommerce+%40buildcom+path%3Apackage.json&type=code | Code search results
+
+https://github.com/lisadean/dotfiles | lisadean/dotfiles: My dotfiles, because losing those environment settings you put together over the years sucks
+https://github.com/git-ecosystem/git-credential-manager/blob/release/docs/usage.md | git-credential-manager/docs/usage.md at release · git-ecosystem/git-credential-manager
+https://git-scm.com/docs/gitcredentials#_custom_helpers | Git - gitcredentials Documentation
+https://github.com/settings/keys | SSH and GPG keys
+
+https://github.com/login/device | Device Activation
+https://github.com/buildcom/config/blob/master/apps/react-build-store.yml | config/apps/react-build-store.yml at master · buildcom/config
+https://github.com/apps/commit-cop/installations/350526 | Update commit-cop's repository access
+https://github.com/ | Server Error · GitHub
+https://github.com/FergDigitalCommerce/BWF-build-tachyons/tree/main | FergDigitalCommerce/BWF-build-tachyons
+https://github.com/settings/profile | Your Profile
+https://github.com/settings/keys | SSH and GPG keys
+https://developer.1password.com/docs/ssh/agent/config/ | SSH agent config file | 1Password Developer
+https://github.com/settings/ssh/new | Add new SSH key
+https://docs.github.com/en/get-started/getting-started-with-git/updating-credentials-from-the-macos-keychain | Updating credentials from the macOS Keychain - GitHub Docs
+
+https://github.com/buildcom/react-build-store/pull/5590 | EFDC-6301 - feat: update to latest FWP by lisadean · Pull Request #5590 · buildcom/react-build-store
+https://levelup.gitconnected.com/what-is-the-difference-between-exec-fork-and-spawn-in-node-js-8232773f4198 | What is the Difference Between Exec, Fork, and Spawn in Node.js | by Brandon Evans | Level Up Coding
+https://nodejs.org/api/child_process.html#child_processexeccommand-options-callback | Child process | Node.js v20.5.1 Documentation
+https://www.google.com/search?q=gitignore+after+file+checked+in&rlz=1C5CHFA_enUS969US969&oq=gitignore+after+file+checked+in&aqs=chrome..69i57j33i160i395l4j33i22i29i30i395.4972j1j7&sourceid=chrome&ie=UTF-8 | gitignore after file checked in - Google Search
+https://github.com/buildcom/fergy-web-platform/blob/main/packages/fergy-cli/README.md | fergy-web-platform/packages/fergy-cli/README.md at main · buildcom/fergy-web-platform
+https://www.google.com/search?q=node+spawn+new+terminal+window&rlz=1C5CHFA_enUS969US969&oq=node+spawn+new+terminal+window&aqs=chrome..69i57j33i299i395j33i299j33i22i29i30i395.6150j1j7&sourceid=chrome&ie=UTF-8 | node spawn new terminal window - Google Search
+https://stackoverflow.com/questions/18407526/git-how-to-find-first-commit-of-specific-branch | Git - how to find first commit of specific branch - Stack Overflow
+https://github.com/buildcom/fergy-web-platform/blob/main/packages/fergy-core/typings/fergy/index.d.ts | fergy-web-platform/packages/fergy-core/typings/fergy/index.d.ts at main · buildcom/fergy-web-platform
+https://lerna.js.org/docs/legacy-package-management#replacing-your-usage-of-lerna-bootstraplerna-link | Legacy Package Management | Lerna
+https://www.npmjs.com/package/commander#quick-start | commander - npm
+https://github.com/tj/commander.js/blob/master/examples/pass-through-options.js | commander.js/examples/pass-through-options.js at master · tj/commander.js
+https://docs.github.com/en/get-started/getting-started-with-git/caching-your-github-credentials-in-git | Caching your GitHub credentials in Git - GitHub Docs
+https://github.com/git-ecosystem/git-credential-manager/blob/release/docs/faq.md | git-credential-manager/docs/faq.md at release · git-ecosystem/git-credential-manager
+https://apple.stackexchange.com/questions/101090/list-of-all-packages-installed-using-homebrew | command line - List of all packages installed using Homebrew - Ask Different
+https://github.com/cli/cli/issues/326 | Allow multiple account credentials · Issue #326 · cli/cli
+https://www.boxpiper.com/posts/github-cli | GitHub CLI - GitHub and command line in 2023 - Box Piper
+https://www.checkiday.com/14e9c816513397d4d8c6d16c6b0c344f/frankenstein-day | Frankenstein Day | Holiday | Checkiday.com
+https://github.com/buildcom/fergy-web-platform | buildcom/fergy-web-platform: Platform Web maintained and supported set of starter kyts, CLIs, server functionality, and assorted utilities
+https://github.com/buildcom/build-tachyons/blob/main/.github/workflows/publish-github-package.yml | build-tachyons/.github/workflows/publish-github-package.yml at main · buildcom/build-tachyons
+
+https://github.com/microsoft/Git-Credential-Manager-for-Windows/issues/749 | How to store credentials for two different github accounts? · Issue #749 · microsoft/Git-Credential-Manager-for-Windows
+https://github.com/settings/tokens | Personal Access Tokens (Classic)
+
+https://fergusonprod.atlassian.net/browse/EFDC-6085 | [EFDC-6085] Modify loadSpringConfig to work with new config server - Ferguson Prod
+https://github.com/buildcom/fergy-web-platform/blob/b16de5f195a78331e69bae2ab3988b37d5281b17/packages/fergy-node-common/src/load-spring-config.ts#L36C1-L40 | fergy-web-platform/packages/fergy-node-common/src/load-spring-config.ts at b16de5f195a78331e69bae2ab3988b37d5281b17 · buildcom/fergy-web-platform
+https://github.com/buildcom/fergy-web-platform/blob/b16de5f195a78331e69bae2ab3988b37d5281b17/packages/fergy-spring-config-client/src/get-config-json.ts#L112-L121 | fergy-web-platform/packages/fergy-spring-config-client/src/get-config-json.ts at b16de5f195a78331e69bae2ab3988b37d5281b17 · buildcom/fergy-web-platform
+https://github.com/buildcom/fergy-web-platform/blob/422288a5b0869276eca7b6b8344fdc788bffd6a8/packages/fergy-core/transformers/routing-transformers.ts#L211-L212 | fergy-web-platform/packages/fergy-core/transformers/routing-transformers.ts at 422288a5b0869276eca7b6b8344fdc788bffd6a8 · buildcom/fergy-web-platform
+https://stackoverflow.com/questions/650022/how-do-i-split-a-string-with-multiple-separators-in-javascript | regex - How do I split a string with multiple separators in JavaScript? - Stack Overflow
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort | Array.prototype.sort() - JavaScript | MDN
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/localeCompare | String.prototype.localeCompare() - JavaScript | MDN
+https://github.com/buildcom/config/blob/master/apps/react-build-store.yml | Sign in to Build.com, Inc.
+https://lodash.com/docs/4.17.15#merge | Lodash Documentation
+https://sonarcloud.io/component_measures?metric=new_coverage&selected=buildcom_fergy-web-platform%3Apackages%2Ffergy-node-common%2Fsrc%2Fload-spring-config.ts&view=list&branch=EFDC-6085&id=buildcom_fergy-web-platform | Coverage on New Code - fergy-web-platform - Build.com, Inc.
+https://jestjs.io/docs/expect#tohavebeencalledwitharg1-arg2- | Expect · Jest
+https://jestjs.io/docs/mock-function-api#mockfnmockreturnvaluevalue | Mock Functions · Jest
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce | Array.prototype.reduce() - JavaScript | MDN
+https://stackoverflow.com/questions/26319066/merging-objects-of-an-array-using-lodash | javascript - Merging objects of an array using lodash - Stack Overflow
+https://jsfiddle.net/ymppagdq/2/ | Edit fiddle - JSFiddle - Code Playground
+https://www.google.com/search?q=lodash+merge+returning+undefined&rlz=1C5CHFA_enUS969US969&oq=lodash+merge+returning+undefined&aqs=chrome..69i57j33i22i29i30.5727j0j7&sourceid=chrome&ie=UTF-8 | lodash merge returning undefined - Google Search
+https://stackoverflow.com/questions/50095872/merge-two-objects-return-undefined | javascript - Merge two objects return undefined - Stack Overflow
+
+https://github.com/juanpicado/verdaccio-end-to-end-tests/blob/main/tasks/registry.js | verdaccio-end-to-end-tests/tasks/registry.js at main · juanpicado/verdaccio-end-to-end-tests
+https://nodejs.org/api/fs.html#fswritefilesyncfile-data-options | File system | Node.js v20.5.1 Documentation
+
+https://fergusonprod.atlassian.net/browse/EFDC-6085 | [EFDC-6085] Modify loadSpringConfig to work with new config server - Ferguson Prod
+https://github.com/buildcom/fergy-web-platform/blob/422288a5b0869276eca7b6b8344fdc788bffd6a8/packages/fergy-core/transformers/routing-transformers.ts#L211-L212 | fergy-web-platform/packages/fergy-core/transformers/routing-transformers.ts at 422288a5b0869276eca7b6b8344fdc788bffd6a8 · buildcom/fergy-web-platform
+https://www.tecmint.com/12-tcpdump-commands-a-network-sniffer-tool/ | 12 Tcpdump Commands - A Network Sniffer Tool
+https://www.wireshark.org/docs/wsug_html_chunked/ChWorkBuildDisplayFilterSection.html | 6.4. Building Display Filter Expressions
+
+https://github.com/buildcom/fergy-web-platform/blob/main/packages/fergy-node-common/src/load-spring-config.ts#L37 | fergy-web-platform/packages/fergy-node-common/src/load-spring-config.ts at main · buildcom/fergy-web-platform
+https://github.com/search?q=repo%3Abuildcom%2Fnode-store%20app.environment&type=code | Code search results
+https://github.com/buildcom/node-store/blob/2b1619150b1e02aa602d34d317ce1363c400917a/src/server.js#L223 | node-store/src/server.js at 2b1619150b1e02aa602d34d317ce1363c400917a · buildcom/node-store
+https://github.com/buildcom/config/blob/master/apps/build-node-store.yml | config/apps/build-node-store.yml at master · buildcom/config
+https://github.com/buildcom/fergy-web-platform/blob/b16de5f195a78331e69bae2ab3988b37d5281b17/packages/fergy-spring-config-client/src/get-config-client.ts#L28 | fergy-web-platform/packages/fergy-spring-config-client/src/get-config-client.ts at b16de5f195a78331e69bae2ab3988b37d5281b17 · buildcom/fergy-web-platform
+https://github.com/buildcom/node-store/blob/2b1619150b1e02aa602d34d317ce1363c400917a/src/config/environments/env.js#L40-L53 | node-store/src/config/environments/env.js at 2b1619150b1e02aa602d34d317ce1363c400917a · buildcom/node-store
+
+https://github.com/victorherraiz/cloud-config-client#readme | victorherraiz/cloud-config-client: Cloud Config Client for Node
+
+https://lerna.js.org/docs/api-reference/commands | Commands | Lerna
+https://github.com/buildcom/fergy-web-platform/compare/EFDC-998?expand=1 | Comparing main...EFDC-998 · buildcom/fergy-web-platform
+https://github.com/lerna/lerna/issues/1581 | Allow publishing with uncommitted changes in working tree · Issue #1581 · lerna/lerna
+https://git-scm.com/docs/git-update-index | Git - git-update-index Documentation
+https://verdaccio.org/docs/node-api/ | Node API | Verdaccio
+https://github.com/verdaccio/verdaccio/pull/2165/files#diff-72760614010ef60cbde6f0081655f2e85e85e1cae70ce3324572ab9290f71714 | feat: improve node-api by juanpicado · Pull Request #2165 · verdaccio/verdaccio
+https://github.com/buildcom/fergy-web-platform/pull/1577/files | EFDC-5832 - feat: lazy load action modules by gbettencourt · Pull Request #1577 · buildcom/fergy-web-platform
+https://docs.npmjs.com/cli/v8/commands/npm-exec#npx-vs-npm-exec | npm-exec | npm Docs
+https://verdaccio.org/docs/configuration/#listen-port | Configuration File | Verdaccio
+https://www.npmjs.com/package/wait-on | wait-on - npm
+https://nodejs.org/en/docs | Documentation | Node.js
+https://www.npmjs.com/package/commander#action-handler | commander - npm
+https://expressjs.com/en/api.html#app.locals | Express 4.x - API Reference
+
+https://github.com/npm/cli/blob/latest/lib/commands/config.js#L51 | cli/lib/commands/config.js at latest · npm/cli
+https://github.com/npm/cli/blob/c736b622b8504b07f5a19f631ade42dd40063269/lib/base-command.js#L79 | cli/lib/base-command.js at c736b622b8504b07f5a19f631ade42dd40063269 · npm/cli
+https://github.com/search?q=repo%3Anpm%2Fcli+process.env&type=code&p=4 | Code search results
+
+https://github.com/buildcom/fergy-web-platform/pull/1556 | EFDC-4974 - fix(npm): Run depcheck on FWP packages by broffis · Pull Request #1556 · buildcom/fergy-web-platform
+https://lerna.js.org/docs/features/version-and-publish | Version and Publish | Lerna
+https://github.com/lerna/lerna/tree/main/libs/commands/publish#--registry-url | lerna/libs/commands/publish at main · lerna/lerna
+https://github.com/lerna/lerna/tree/main/libs/commands | lerna/libs/commands at main · lerna/lerna
+https://fergusonprod.atlassian.net/jira/software/c/projects/EFDC/boards/1632 | Web Platform - Agile Board - Ferguson Prod
+https://github.com/search?q=repo%3Averdaccio%2Fverdaccio%20uplink%20auth&type=code | Code search results
+https://docs.npmjs.com/cli/v8/using-npm/scope#associating-a-scope-with-a-registry | scope | npm Docs
+https://github.com/npm/cli/issues/3235 | npm install - --registry parameter not respected · Issue #3235 · npm/cli
+https://www.npmjs.com/package/@kie/lock-treatment-tool | @kie/lock-treatment-tool - npm
+https://github.com/kiegroup/lock-treatment-tool | kiegroup/lock-treatment-tool: a js tool to treat package-lock.json and yarn.lock files.
+https://docs.npmjs.com/cli/v8/commands/npm-run-script#description | npm-run-script | npm Docs
+https://github.com/npm/cli/blob/latest/workspaces/config/lib/definitions/definitions.js | cli/workspaces/config/lib/definitions/definitions.js at latest · npm/cli
+https://www.google.com/search?q=npm+config+environment+variables+scope&rlz=1C5CHFA_enUS969US969&oq=npm+config+environment+variables+scope&aqs=chrome..69i57j69i64.4640j0j7&sourceid=chrome&ie=UTF-8 | npm config environment variables scope - Google Search
+
+https://docs.npmjs.com/cli/v6/commands/npm-install | npm-install | npm Docs
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/304 | 304 Not Modified - HTTP | MDN
+https://docs.npmjs.com/cli/v8/commands/npm-cache | npm-cache | npm Docs
+
+https://github.com/buildcom/react-build-store/discussions/5365 | 2023-07-18 - React Guild · buildcom/react-build-store · Discussion #5365
+https://lerna.js.org/docs/api-reference/commands | Commands | Lerna
+
+https://docs.npmjs.com/cli/v7/commands/npm-install#save | npm-install | npm Docs
+https://verdaccio.org/docs/node-api/ | Node API | Verdaccio
+https://docs.npmjs.com/cli/v7/configuring-npm/npmrc | npmrc | npm Docs
+https://github.com/lerna/lerna/tree/main/libs/commands/version#positionals | lerna/libs/commands/version at main · lerna/lerna
+https://github.com/lerna/lerna/tree/main/libs/commands/publish#per-package-configuration | lerna/libs/commands/publish at main · lerna/lerna
+
+https://docs.npmjs.com/cli/v8/commands/npm-publish | npm-publish | npm Docs
+https://developer.entando.com/v6.1/tutorials/ecr/how-to-create-local-npm-registry.html#start-local-nexus-as-a-docker-container | Create a local NPM registry for testing | Entando Developers
+
+https://github.com/buildcom/react-build-store/discussions/5002 | Platypus Stuff: NPM link behavior · buildcom/react-build-store · Discussion #5002
+https://medium.com/@alexishevia/the-magic-behind-npm-link-d94dcb3a81af | The magic behind npm link. Node.js has a very simple module… | by Alexis Hevia | Medium
+https://github.com/npm/cli/issues/1120 | [BUG] npm link is not CI friendly · Issue #1120 · npm/cli
+
+https://github.com/howtographql/react-apollo/issues/33 | Error: "Ensure there is only one instance of GraphQL in the node_modules directory" · Issue #33 · howtographql/react-apollo
+https://github.com/graphql/graphql-js/issues/1091 | multi-repository graphql types with local npm link · Issue #1091 · graphql/graphql-js
+https://docs.npmjs.com/cli/v8/commands/npm-link?v=true#legacy-bundling | npm-link | npm Docs
+https://stackoverflow.com/questions/47334133/multi-repository-graphql-types-with-local-npm-link/47689206#47689206 | node.js - multi-repository graphql types with local npm link - Stack Overflow
+https://stackoverflow.com/questions/73531304/multiple-graphql-instances-with-npm-link | javascript - Multiple "graphql" instances with npm link - Stack Overflow
+
+https://github.com/buildcom/react-build-store/pull/5277 | Create chromatic-test.yaml by lisadean · Pull Request #5277 · buildcom/react-build-store
+https://www.chromatic.com/docs/github-actions#outputs | Automate Chromatic with GitHub Actions • Chromatic docs
+https://www.chromatic.com/docs/turbosnap | TurboSnap • Chromatic docs
+https://github.com/FergusonDigitalCommerce/react-ferg-store/blob/main/.github/workflows/_reusable-setup-app-caches.yml | react-ferg-store/.github/workflows/_reusable-setup-app-caches.yml at main · FergusonDigitalCommerce/react-ferg-store · GitHub
+https://docs.github.com/en/actions/using-jobs/using-a-matrix-for-your-jobs | Using a matrix for your jobs - GitHub Docs
+https://stackoverflow.com/questions/59180385/using-an-array-of-values-to-repeat-a-step-in-github-actions-workflow | yaml - Using an array of values to repeat a step in GitHub Actions workflow - Stack Overflow
+https://tomasvotruba.com/blog/2020/11/16/how-to-make-dynamic-matrix-in-github-actions/ | How to make a Dynamic Matrix in GitHub Actions | Tomas Votruba
+
+https://docs.github.com/en/actions/using-workflows/manually-running-a-workflow | Manually running a workflow - GitHub Docs
+https://github.com/buildcom/react-build-store/blob/lisadean-patch-1/.github/workflows/chromatic-test.yaml | react-build-store/.github/workflows/chromatic-test.yaml at lisadean-patch-1 · buildcom/react-build-store · GitHub
+https://github.com/orgs/community/discussions/8140 | workflow_dispatch trigger not available in branch, except it is! · community · Discussion #8140
+
+https://betterprogramming.pub/3-libraries-to-remove-unused-css-f09ffc9777da | 3 Libraries to Remove Unused CSS. And why you would use a library to do… | by Floriel | Better Programming
+https://purgecss.com/configuration.html | Configuration | PurgeCSS
+https://github.com/FullHuman/purgecss | FullHuman/purgecss: Remove unused CSS
+https://purgecss.com/introduction.html | Introduction | PurgeCSS
+https://github.com/FullHuman/purgecss/blob/main/packages/purgecss/build.ts | purgecss/build.ts at main · FullHuman/purgecss · GitHub
+https://github.com/FullHuman/purgecss/blob/main/docs/configuration.md | purgecss/docs/configuration.md at main · FullHuman/purgecss · GitHub
+https://www.npmjs.com/package/purgecss | purgecss - npm
+
+https://vuejsdevelopers.com/2017/07/24/critical-css-webpack/ | Critical CSS and Webpack: Automatically Minimize Render-Blocking CSS - Vue.js Developers
+https://www.google.com/search?q=inline+critical+css+server+side+render+react&rlz=1C5CHFA_enUS969US969&oq=inline+critical+css+server+side+render+react&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRigATIHCAMQIRigATIHCAQQIRigAdIBCTExNDg3ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8 | inline critical css server side render react - Google Search
+https://www.lullabot.com/articles/dynamically-inlining-critical-css-with-serverside-javascript | Dynamically Inlining Critical CSS with Server-side JavaScript | Lullabot
+https://www.filamentgroup.com/lab/load-css-simpler/ | The Simplest Way to Load CSS Asynchronously | Filament Group, Inc.
+https://github.com/purifycss/purifycss | purifycss/purifycss: Remove unused CSS. Also works with single-page apps.
+https://cheerio.js.org/docs/advanced/extract | Extracting Data with the extract Method | cheerio
+https://loadable-components.com/docs/api-loadable-server/#chunkextractorgetinlinestyletags | @loadable/server - Loadable Components

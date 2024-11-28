@@ -1,0 +1,5 @@
+# mas
+803453959 # Slack
+
+# casks
+parallels

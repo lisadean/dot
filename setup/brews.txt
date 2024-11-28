@@ -1,8 +1,12 @@
-git
-pyenv
 bat
-fzf
-mas
-tree
 direnv
+fzf
 gh
+git
+jq
+mas
+pyenv
+ripgrep
+tldr
+tmux
+tree
