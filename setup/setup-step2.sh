@@ -1,14 +1,16 @@
 #!/bin/bash -x
 
-# Unset GitHub rewrite
-git config --unset url.git@github.com:.insteadof
+export MOVE_CONFIG=$(mv ~/.config/git/config ~/.config/git/config.bak)
+export MOVE_CONFIG_BACK=$(mv ~/.config/git/config.bak ~/.config/git/config)
 
 # Install homebrew and dependencies
 sudo softwareupdate --install-rosetta --agree-to-license
 xcode-select --install
 if ! command -v brew 1>/dev/null 2>&1; then
+  $MOVE_CONFIG
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 	eval "$(/opt/homebrew/bin/brew shellenv)"
+  $MOVE_CONFIG_BACK
 fi
 
 # Install stow and stow files
@@ -18,11 +20,15 @@ source "$DOTFILES/setup/stow-all.sh"
 ##### App installs #####
 
 # oh-my-zsh
+$MOVE_CONFIG
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+$MOVE_CONFIG_BACK
 
 # nvm
 if ! command -v nvm 1>/dev/null 2>&1; then
+  $MOVE_CONFIG
   PROFILE=/dev/null bash -c 'curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash'
+  $MOVE_CONFIG_BACK
 fi
 nvm install --lts
 
@@ -163,8 +169,6 @@ for app in "Activity Monitor" "cfprefsd" "Dock" "Finder" "Photos" "Safari" "Goog
 	killall "${app}" &> /dev/null
 done
 
-# Reset GitHub rewrite
-git config url.git@github.com:.insteadof https://github.com/
 
 echo "Copy secrets file to ~/.config/shell/secrets"
 
