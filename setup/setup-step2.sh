@@ -80,13 +80,13 @@ mas_apps=(
 )
 # npm_packages=()
 for formula in "${brews[@]}"; do
-  brew install "$formula" || echo "Failed to install $formula"
+  brew install "$formula" || echo "===> 🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨 Failed to install $formula"
 done
 for formula in "${casks[@]}"; do
-  brew install --cask "$formula" || echo "Failed to install $formula"
+  brew install --cask "$formula" || echo "🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨 Failed to install $formula"
 done
 for app in "${mas_apps[@]}"; do
-  mas install "$app" || echo "Failed to install $app"
+  mas install "$app" || echo "🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨 Failed to install $app"
 done
 # npm install -g "${npm_packages[@]}"
 
