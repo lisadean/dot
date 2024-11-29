@@ -1,5 +1,8 @@
 #!/bin/bash -x
 
+# Unset GitHub rewrite
+git config --unset url.git@github.com:.insteadof
+
 # Install homebrew and dependencies
 sudo softwareupdate --install-rosetta --agree-to-license
 xcode-select --install
@@ -159,6 +162,9 @@ defaults write com.apple.finder _FXSortFoldersFirst -bool true
 for app in "Activity Monitor" "cfprefsd" "Dock" "Finder" "Photos" "Safari" "Google Chrome" "SystemUIServer" "Terminal"; do
 	killall "${app}" &> /dev/null
 done
+
+# Reset GitHub rewrite
+git config url.git@github.com:.insteadof https://github.com/
 
 echo "Copy secrets file to ~/.config/shell/secrets"
 
