@@ -206,6 +206,7 @@ for app in "Activity Monitor" "cfprefsd" "Dock" "Finder" "Photos" "Safari" "Goog
 	killall "${app}" &> /dev/null
 done
 
+sudo xcodebuild -license
 
 echo "Copy secrets file to ~/.config/shell/secrets"
 
