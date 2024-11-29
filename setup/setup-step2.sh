@@ -56,8 +56,8 @@ read_file_into_array "$DOTFILES/setup/mas_apps.txt" mas_apps
 mas install "${mas_apps[@]}"
 
 # npm packages
-read_file_into_array "$DOTFILES/setup/npm_packages.txt" npm_packages
-npm install -g "${npm_packages[@]}"
+# read_file_into_array "$DOTFILES/setup/npm_packages.txt" npm_packages
+# npm install -g "${npm_packages[@]}"
 
 ##### Mac settings #####
 
