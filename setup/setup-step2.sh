@@ -62,7 +62,7 @@ casks=(
   github
   google-chrome
   google-drive
-  homebrew/cask-fonts/font-fira-code
+  font-fira-code
   keyclu
   logi-options+
   postman
