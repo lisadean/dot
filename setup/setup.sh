@@ -16,7 +16,7 @@ DOTFILES="$HOME/dot"
 # chsh -s /bin/zsh
 
 # Install homebrew and dependencies
-sudo softwareupdate --install-rosetta
+sudo softwareupdate --install-rosetta --agree-to-license
 xcode-select --install
 if ! brew --version ; then
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
