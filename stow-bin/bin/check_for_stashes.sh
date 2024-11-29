@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Change this to the path where your repositories are stored
-base_dir="/path/to/your/directory"
+base_dir="${1:-$PWD}"
 
 # Loop through each subdirectory
 for dir in "$base_dir"/*; do
