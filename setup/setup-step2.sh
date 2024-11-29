@@ -79,7 +79,7 @@ mas_apps=(
 )
 # npm_packages=()
 brew install "${brews[@]}"
-brew install -cask "${casks[@]}"
+brew install --cask "${casks[@]}"
 mas install "${mas_apps[@]}"
 # npm install -g "${npm_packages[@]}"
 
