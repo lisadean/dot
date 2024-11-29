@@ -35,18 +35,28 @@ export NVM_DIR=$HOME/.nvm
 
 nvm install --lts
 
+read_file_into_array() {
+  local file="$1"
+  local -n array_ref="$2"
+
+  array_ref=()  # Initialize the array
+  while IFS= read -r line; do
+    array_ref+=("$line")
+  done < "$file"
+}
+
 # brew apps
-readarray -t brews < "$DOTFILES/setup/brews.txt"
-readarray -t casks < "$DOTFILES/setup/casks.txt"
+read_file_into_array "$DOTFILES/setup/brews.txt" brews
 brew install "${brews[@]}"
+read_file_into_array "$DOTFILES/setup/casks.txt" casks
 brew install -cask "${casks[@]}"
 
 # app store apps
-readarray -t mas_apps < "$DOTFILES/setup/mas_apps.txt"
+read_file_into_array "$DOTFILES/setup/mas_apps.txt" mas_apps
 mas install "${mas_apps[@]}"
 
 # npm packages
-readarray -t npm_packages < "$DOTFILES/setup/npm_packages.txt"
+read_file_into_array "$DOTFILES/setup/npm_packages.txt" npm_packages
 npm install -g "${npm_packages[@]}"
 
 ##### Mac settings #####
