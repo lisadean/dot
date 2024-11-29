@@ -79,9 +79,15 @@ mas_apps=(
   497799835 # Xcode
 )
 # npm_packages=()
-brew install "${brews[@]}"
-brew install --cask "${casks[@]}"
-mas install "${mas_apps[@]}"
+for formula in "${brews[@]}"; do
+  brew install "$formula" || echo "Failed to install $formula"
+done
+for formula in "${casks[@]}"; do
+  brew install --cask "$formula" || echo "Failed to install $formula"
+done
+for app in "${mas_apps[@]}"; do
+  mas install "$app" || echo "Failed to install $app"
+done
 # npm install -g "${npm_packages[@]}"
 
 ##### Mac settings #####
