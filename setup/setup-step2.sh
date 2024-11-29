@@ -6,6 +6,7 @@ export MOVE_CONFIG_BACK=$(mv ~/.config/git/config.bak ~/.config/git/config)
 # Install homebrew and dependencies
 sudo softwareupdate --install-rosetta --agree-to-license
 xcode-select --install
+sudo xcodebuild -license accept
 if ! command -v brew 1>/dev/null 2>&1; then
   $MOVE_CONFIG
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -205,8 +206,6 @@ defaults write com.apple.finder _FXSortFoldersFirst -bool true
 for app in "Activity Monitor" "cfprefsd" "Dock" "Finder" "Photos" "Safari" "Google Chrome" "SystemUIServer" "Terminal"; do
 	killall "${app}" &> /dev/null
 done
-
-sudo xcodebuild -license
 
 echo "Copy secrets file to ~/.config/shell/secrets"
 
