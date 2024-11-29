@@ -1,3 +1,0 @@
-1091189122 # Bear
-1569813296 # 1Password for Safari
-497799835 # Xcode

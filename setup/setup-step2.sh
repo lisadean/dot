@@ -35,28 +35,52 @@ export NVM_DIR=$HOME/.nvm
 
 nvm install --lts
 
-read_file_into_array() {
-  local file="$1"
-  local -n array_ref="$2"
-
-  array_ref=()  # Initialize the array
-  while IFS= read -r line; do
-    array_ref+=("$line")
-  done < "$file"
-}
-
-# brew apps
-read_file_into_array "$DOTFILES/setup/brews.txt" brews
+brews=(
+  bat
+  direnv
+  fzf
+  gh
+  git
+  jq
+  mas
+  pyenv
+  ripgrep
+  tldr
+  tmux
+  tree
+)
+casks=(
+  1password
+  datadog-agent
+  ddpm
+  discord
+  disk-expert
+  docker
+  dropbox
+  firefox
+  github
+  google-chrome
+  google-drive
+  homebrew/cask-fonts/font-fira-code
+  keyclu
+  logi-options+
+  postman
+  raindropio
+  rectangle-pro
+  slack
+  spotify
+  visual-studio-code
+  whatsapp
+)
+mas_apps=(
+  1091189122 # Bear
+  1569813296 # 1Password for Safari
+  497799835 # Xcode
+)
+# npm_packages=()
 brew install "${brews[@]}"
-read_file_into_array "$DOTFILES/setup/casks.txt" casks
 brew install -cask "${casks[@]}"
-
-# app store apps
-read_file_into_array "$DOTFILES/setup/mas_apps.txt" mas_apps
 mas install "${mas_apps[@]}"
-
-# npm packages
-# read_file_into_array "$DOTFILES/setup/npm_packages.txt" npm_packages
 # npm install -g "${npm_packages[@]}"
 
 ##### Mac settings #####
