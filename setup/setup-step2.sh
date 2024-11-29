@@ -203,11 +203,14 @@ defaults write com.google.Chrome PMPrintingExpandedStateForPrint2 -bool true
 defaults write com.google.Chrome.canary PMPrintingExpandedStateForPrint2 -bool true
 #Moves Folders to top When Sorting Alphabetically in Finder 
 defaults write com.apple.finder _FXSortFoldersFirst -bool true
+echo "About to close terminal and restart apps"
+echo "Make sure to copy secrets file to ~/.config/shell/secrets"
+echo "Press any key to continue"
+read -r anykey
 for app in "Activity Monitor" "cfprefsd" "Dock" "Finder" "Photos" "Safari" "Google Chrome" "SystemUIServer" "Terminal"; do
 	killall "${app}" &> /dev/null
 done
 
-echo "Copy secrets file to ~/.config/shell/secrets"
 
 # Primeagean stuff
 # https://github.com/ThePrimeagen/dev/blob/master/env/.zshrc
