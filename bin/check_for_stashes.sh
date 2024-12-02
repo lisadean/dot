@@ -6,7 +6,7 @@ base_dir="${1:-$PWD}"
 # Loop through each subdirectory
 for dir in "$base_dir"/*; do
     if [ -d "$dir/.git" ]; then
-        echo "Checking repository: $dir"
+        # echo "Checking repository: $dir"
         
         # Navigate to the repository
         cd "$dir" || continue
@@ -14,9 +14,7 @@ for dir in "$base_dir"/*; do
         # Check if there are stashes
         stash_count=$(git stash list | wc -l)
         if [ "$stash_count" -gt 0 ]; then
-            echo "  -> Stashes found ($stash_count)"
-        else
-            echo "  -> No stashes"
+            echo "🚨 $stash_count found in $dir"
         fi
         
         # Return to the base directory
