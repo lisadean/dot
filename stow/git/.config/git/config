@@ -22,8 +22,6 @@
 	name = "Lisa Dean"
 	email = lisa@lisadean.net
 # https://blog.hao.dev/how-to-use-different-git-emails-for-personal-and-work-repositories-on-the-same-machine
-[includeIf "gitdir:personal/"]
-	path = config-personal
-[includeIf "gitdir:work/"]
+# https://git.sr.ht/~bentinata/bentinata.com/tree/_/item/log/2023-05-11-git-insteadof-includeif.gmi
+[includeIf "hasconfig:remote.*.url:*:FergDigitalCommerce/*"]
 	path = config-work
-
