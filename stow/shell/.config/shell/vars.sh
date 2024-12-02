@@ -3,6 +3,7 @@
 # May be replaced by machine specific profile
 
 export NPM_TOKEN=${NODE_AUTH_TOKEN}
+export GITHUB_TOKEN=${NODE_AUTH_TOKEN}
 export REPOSITORIES="$HOME/repos"
 export DOTFILES="$HOME/dot"
 
