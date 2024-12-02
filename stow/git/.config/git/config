@@ -19,8 +19,8 @@
     # insteadOf = git@github.com:buildcom
 		# insteadOf = https://github.com/buildcom
 [user]
+	name = "Lisa Dean"
 	email = lisa@lisadean.net
-	name = Lisa Dean
 # https://blog.hao.dev/how-to-use-different-git-emails-for-personal-and-work-repositories-on-the-same-machine
 [includeIf "gitdir:personal/"]
 	path = config-personal
