@@ -1,11 +1,12 @@
 #!/bin/bash -x
 
-cd "$DOTFILES"
-mkdir -p "$HOME/.config/shell/zsh"
-touch "$HOME/.config/shell/zsh/.placeholder"
-mkdir -p "$HOME/.config/git"
-touch "$HOME/.config/git/.placeholder"
-stow_dirs=("stow-home" "stow-shell" "stow-ssh" "stow-git" "stow-1password" "stow-bin")
-for dir in "${stow_dirs[@]}"; do
-  stow -R "$dir"
-done
+export STOW_DIR="$DOTFILES/stow"
+export STOW_OPTIONS='--no-folding --verbose'
+export STOW_ACTION='-R' # -S --stow, -R --restow, -D --delete
+
+stow "$STOW_OPTIONS" -t "$HOME" $STOW_ACTION shell
+stow "$STOW_OPTIONS" -t "$HOME" $STOW_ACTION git
+stow "$STOW_OPTIONS" -t "$HOME" $STOW_ACTION 1password
+stow "$STOW_OPTIONS" -t "$HOME" $STOW_ACTION ssh
+stow "$STOW_OPTIONS" -t "$HOME" $STOW_ACTION docker
+stow "$STOW_OPTIONS" -t "/opt/datadog-agent/etc" $STOW_ACTION datadog
