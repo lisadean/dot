@@ -9,5 +9,5 @@ stow $STOW_OPTIONS -d "$STOW_DIR" -t "$HOME" $STOW_ACTION shell
 stow $STOW_OPTIONS -d "$STOW_DIR" -t "$HOME" $STOW_ACTION git
 stow $STOW_OPTIONS -d "$STOW_DIR" -t "$HOME" $STOW_ACTION 1password
 stow $STOW_OPTIONS -d "$STOW_DIR" -t "$HOME" $STOW_ACTION ssh
-stow $STOW_OPTIONS -d "$STOW_DIR" -t "$HOME" $STOW_ACTION docker
+# stow $STOW_OPTIONS -d "$STOW_DIR" -t "$HOME" $STOW_ACTION docker
 sudo stow $STOW_OPTIONS -d "$STOW_DIR" -t /opt $STOW_ACTION datadog
