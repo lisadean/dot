@@ -1,0 +1,54 @@
+
+POST http://localhost:3000/graphql HTTP/1.1
+content-type: application/json
+X-REQUEST-TYPE: GraphQL
+
+query searchLocations($input: SearchLocationsQueryInput!) {
+  searchLocations(searchLocationsQueryInput: $input) {
+    totalLocations
+    locations {
+      address {
+        addressLine2
+        addressLine1
+        city
+        country
+        state
+        zip
+      }
+      id
+      distance
+      latLong {
+        lat
+        long
+      }
+      stores {
+        phoneNumber
+        link
+        schedule {
+          day
+          hours
+        }
+        locationType
+        isOpen
+      }
+    }
+  }
+}
+
+
+{
+  "input": {
+    "pagination": {
+      "pageSize": null,
+      "page": null
+    },
+    "radius": 100,
+    "locationType": [
+      "SHOWROOM"
+    ],
+    "latLong": {
+      "lat": 33.66309331893479,
+      "long": -84.4403895522697
+    }
+  }
+}
