@@ -44,6 +44,7 @@ brews=(
   git
   jq
   mas
+  parallel
   pyenv
   ripgrep
   tldr
