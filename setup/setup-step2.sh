@@ -1,5 +1,6 @@
 #!/bin/bash -x
 
+# Have to do this because 1Password isn't installed yet and it handles the SSH keys
 export MOVE_CONFIG=$(mv ~/.config/git/config ~/.config/git/config.bak)
 export MOVE_CONFIG_BACK=$(mv ~/.config/git/config.bak ~/.config/git/config)
 
@@ -78,6 +79,7 @@ mas_apps=(
   1091189122 # Bear
   1569813296 # 1Password for Safari
   497799835 # Xcode
+  904280696 # Things 3
 )
 # npm_packages=()
 for formula in "${brews[@]}"; do
@@ -220,6 +222,8 @@ for app in "Activity Monitor" "cfprefsd" "Dock" "Finder" "Photos" "Safari" "Goog
 	killall "${app}" &> /dev/null
 done
 
+# Disable IPv6 on wireless network -- prevents ERR_CONNECTION_RESET and ERR_SOCKET_NOT_CONNECTED errors in Chrome when on VPN
+networksetup -setv6off Wi-Fi
 
 # Primeagean stuff
 # https://github.com/ThePrimeagen/dev/blob/master/env/.zshrc
