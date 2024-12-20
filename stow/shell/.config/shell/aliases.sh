@@ -6,23 +6,23 @@ alias llmod='ll -t'
 alias fuck='sudo $(history -p !!)'
 alias fuckingplease='sudo "$BASH" -c "$(history -p !!)"'
 
-alias cbws="code $REPOSITORIES/bws/."
-alias cdbws="cd $REPOSITORIES/bws/"
+alias cbws="code $WORK_REPOS/bws/."
+alias cdbws="cd $WORK_REPOS/bws/"
 
-alias crbs2="code $REPOSITORIES/bws2/."
-alias cdrbs2="cd $REPOSITORIES/bws2/"
+alias crbs2="code $WORK_REPOS/bws2/."
+alias cdrbs2="cd $WORK_REPOS/bws2/"
 
-alias cfwp="code $REPOSITORIES/fwp/."
-alias cdfwp="cd $REPOSITORIES/fwp/"
+alias cfwp="code $WORK_REPOS/fwp/."
+alias cdfwp="cd $WORK_REPOS/fwp/"
 
-alias cfws='code $REPOSITORIES/fws/.'
-alias cdfws="cd $REPOSITORIES/fws/"
+alias cfws='code $WORK_REPOS/fws/.'
+alias cdfws="cd $WORK_REPOS/fws/"
 
-alias cftach="code $REPOSITORIES/dc-ferguson-tachyons/."
-alias cdftach="cd $REPOSITORIES/dc-ferguson-tachyons/"
+alias cftach="code $WORK_REPOS/dc-ferguson-tachyons/."
+alias cdftach="cd $WORK_REPOS/dc-ferguson-tachyons/"
 
-alias cnode="code $REPOSITORIES/node-store/."
-alias cdnode="cd $REPOSITORIES/node-store/"
+alias cnode="code $WORK_REPOS/node-store/."
+alias cdnode="cd $WORK_REPOS/node-store/"
 
 alias cdot="code $DOTFILES/."
 alias cddot="cd $DOTFILES/"
