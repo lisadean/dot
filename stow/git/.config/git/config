@@ -18,6 +18,9 @@
 		insteadOf = https://github.com/FergDigitalCommerce
     # insteadOf = git@github.com:buildcom
 		# insteadOf = https://github.com/buildcom
+[url "git@FergMain:FergMain"]
+    insteadOf = git@github.com:FergMain
+		insteadOf = https://github.com/FergMain
 [user]
 	name = "Lisa Dean"
 	email = lisa@lisadean.net
