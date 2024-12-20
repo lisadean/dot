@@ -32,11 +32,14 @@ if ! command -v nvm 1>/dev/null 2>&1; then
   PROFILE=/dev/null bash -c 'curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash'
   $MOVE_CONFIG_BACK
 fi
+# Install latest Node
 export NVM_DIR=$HOME/.nvm
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
-
 nvm install --lts
 
+taps=(
+  sdkman/tap
+)
 brews=(
   bat
   direnv
@@ -51,6 +54,7 @@ brews=(
   tldr
   tmux
   tree
+  sdkman-cli
 )
 casks=(
   1password
@@ -82,6 +86,9 @@ mas_apps=(
   904280696 # Things 3
 )
 # npm_packages=()
+for tap in "${taps[@]}"; do
+  brew tap "$tap" || echo "===> 🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨 Failed to tap $formula"
+done
 for formula in "${brews[@]}"; do
   brew install "$formula" || echo "===> 🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨 Failed to install $formula"
 done
@@ -92,6 +99,11 @@ for app in "${mas_apps[@]}"; do
   mas install "$app" || echo "🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨 Failed to install $app"
 done
 # npm install -g "${npm_packages[@]}"
+
+# Install Java
+export SDKMAN_DIR=$(brew --prefix sdkman-cli)/libexec
+[[ -s "${SDKMAN_DIR}/bin/sdkman-init.sh" ]] && source "${SDKMAN_DIR}/bin/sdkman-init.sh"
+sdk install java 11.0.22-tem
 
 ##### Mac settings #####
 

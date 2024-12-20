@@ -20,9 +20,6 @@ if command -v pyenv 1>/dev/null 2>&1; then
   eval "$(pyenv init -)"
 fi
 
-[[ -n $SHELL_DEBUG ]] && echo "DEBUG: Sourcing sdkman-init.sh"
-[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
-
 # direnv extension hook
 if command -v direnv 1>/dev/null 2>&1; then
   [[ -n $SHELL_DEBUG ]] && echo "DEBUG: Running direnv hook"
@@ -32,3 +29,8 @@ fi
 # Homebrew path & vars
 [[ -n $SHELL_DEBUG ]] && echo "DEBUG: Running brew shellenv"
 eval "$(/opt/homebrew/bin/brew shellenv)"
+
+# SDKMAN -- must be after Homebrew initialization
+[[ -n $SHELL_DEBUG ]] && echo "DEBUG: Sourcing sdkman-init.sh"
+export SDKMAN_DIR=$(brew --prefix sdkman-cli)/libexec
+[[ -s "${SDKMAN_DIR}/bin/sdkman-init.sh" ]] && source "${SDKMAN_DIR}/bin/sdkman-init.sh"
