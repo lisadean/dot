@@ -6,43 +6,28 @@ alias llmod='ll -t'
 alias fuck='sudo $(history -p !!)'
 alias fuckingplease='sudo "$BASH" -c "$(history -p !!)"'
 
-alias crbs="code $REPOSITORIES/bwf-web-store/."
-alias cdrbs="cd $REPOSITORIES/bwf-web-store/"
+alias cbws="code $REPOSITORIES/bws/."
+alias cdbws="cd $REPOSITORIES/bws/"
 
-alias crbs2="code $REPOSITORIES/bwf-web-store2/."
-alias cdrbs2="cd $REPOSITORIES/bwf-web-store2/"
+alias crbs2="code $REPOSITORIES/bws2/."
+alias cdrbs2="cd $REPOSITORIES/bws2/"
 
-alias cfwp="code $REPOSITORIES/bwf-web-platform/."
-alias cdfwp="cd $REPOSITORIES/bwf-web-platform/"
+alias cfwp="code $REPOSITORIES/fwp/."
+alias cdfwp="cd $REPOSITORIES/fwp/"
 
-alias cfws='code $REPOSITORIES/dc-ferg-web-store/.'
-alias cdfws="cd $REPOSITORIES/dc-ferg-web-store/"
+alias cfws='code $REPOSITORIES/fws/.'
+alias cdfws="cd $REPOSITORIES/fws/"
 
 alias cftach="code $REPOSITORIES/dc-ferguson-tachyons/."
 alias cdftach="cd $REPOSITORIES/dc-ferguson-tachyons/"
 
-alias cnode="code $REPOSITORIES/BWF-node-store/."
-alias cdnode="cd $REPOSITORIES/BWF-node-store/"
+alias cnode="code $REPOSITORIES/node-store/."
+alias cdnode="cd $REPOSITORIES/node-store/"
 
 alias cdot="code $DOTFILES/."
 alias cddot="cd $DOTFILES/"
 
 # Old repos
-alias crbsold="code $REPOSITORIES/react-build-store/."
-alias cdrbsold="cd $REPOSITORIES/react-build-store/"
-
-alias crbs2old="code $REPOSITORIES/react-build-store-alt/."
-alias cdrbs2old="cd $REPOSITORIES/react-build-store-alt/"
-
-alias cnodeold="code $REPOSITORIES/node-store/."
-alias cdnodeold="cd $REPOSITORIES/node-store/"
-
-alias cfwpold="code $REPOSITORIES/fergy-web-platform/."
-alias cdfwpold="cd $REPOSITORIES/fergy-web-platform/"
-
-alias crfsold="code $REPOSITORIES/react-ferg-store/."
-alias cdrfsold="cd $REPOSITORIES/react-ferg-store/"
-
 alias gbl="git branch --list"
 alias glo="git log --oneline"
 alias glg="git log --graph --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%an%C(reset)%C(bold yellow)%d%C(reset) %C(dim white)- %s%C(reset)' --all
