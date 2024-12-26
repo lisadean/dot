@@ -4,7 +4,6 @@ echo "Installing xcode CLI, rosetta and accepting licenses"
 if ! command -v xcode-select 1>/dev/null 2>&1; then
   xcode-select --install
 fi
-sudo xcodebuild -license accept
 sudo softwareupdate --install-rosetta --agree-to-license
 
 echo "Installing homebrew, if needed"
@@ -101,6 +100,9 @@ echo "Installing App Store Apps"
 for app in "${mas_apps[@]}"; do
   mas install "$app" || echo "🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨 Failed to install $app"
 done
+
+echo "Accepting xcode license"
+sudo xcodebuild -license accept
 
 echo "Installing Java"
 export SDKMAN_DIR=$(brew --prefix sdkman-cli)/libexec
