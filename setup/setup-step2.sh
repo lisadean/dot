@@ -80,12 +80,6 @@ casks=(
   visual-studio-code
   whatsapp
 )
-mas_apps=(
-  1091189122 # Bear
-  1569813296 # 1Password for Safari
-  497799835 # Xcode
-  904280696 # Things 3
-)
 echo "Installing homebrew packages"
 for tap in "${taps[@]}"; do
   brew tap "$tap" || echo "===> 🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨 Failed to tap $formula"
@@ -96,6 +90,13 @@ done
 for formula in "${casks[@]}"; do
   brew install --cask "$formula" || echo "🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨 Failed to install $formula"
 done
+
+mas_apps=(
+  1091189122 # Bear
+  1569813296 # 1Password for Safari
+  497799835 # Xcode
+  904280696 # Things 3
+)
 echo "Installing App Store Apps"
 for app in "${mas_apps[@]}"; do
   mas install "$app" || echo "🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨 Failed to install $app"
@@ -106,12 +107,12 @@ export SDKMAN_DIR=$(brew --prefix sdkman-cli)/libexec
 [[ -s "${SDKMAN_DIR}/bin/sdkman-init.sh" ]] && source "${SDKMAN_DIR}/bin/sdkman-init.sh"
 sdk install java 11.0.22-tem
 
-source "$DOTFILES/setup/stow-all.sh"
-
 # Disable IPv6 on wireless network -- prevents ERR_CONNECTION_RESET
 # and ERR_SOCKET_NOT_CONNECTED errors in Chrome when on VPN
 echo "Disabling IPv6"
 networksetup -setv6off Wi-Fi
+
+source "$DOTFILES/setup/stow-all.sh"
 
 echo " 🎉 DONE 🎉"
 echo "Postinstall tasks:"
@@ -120,17 +121,8 @@ echo "✅ Copy secrets file to ~/.config/shell/secrets"
 echo "✅ Run setup-mac.sh for Mac settings"
 echo "✅ Reboot"
 
-
-
-
-
 # Primeagean stuff
 # https://github.com/ThePrimeagen/dev/blob/master/env/.zshrc
 
 # TODO take care of stow-datadog > /opt/datadog-agent/etc/datadog.yaml
 # TODO take care of stow-docker > ~/.docker
-
-# TODO
-# find all stashes and deal with them
-# copy down repos in correct work/personal location
-# set wallpaper
