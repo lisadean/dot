@@ -5,15 +5,18 @@ export MOVE_CONFIG=$(mv ~/.config/git/config ~/.config/git/config.bak)
 export MOVE_CONFIG_BACK=$(mv ~/.config/git/config.bak ~/.config/git/config)
 
 # Install homebrew and dependencies
-sudo softwareupdate --install-rosetta --agree-to-license
-xcode-select --install
+if ! command -v xcode-select 1>/dev/null 2>&1; then
+  xcode-select --install
+fi
 sudo xcodebuild -license accept
+sudo softwareupdate --install-rosetta --agree-to-license
 if ! command -v brew 1>/dev/null 2>&1; then
-  $MOVE_CONFIG
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 	eval "$(/opt/homebrew/bin/brew shellenv)"
-  $MOVE_CONFIG_BACK
 fi
+
+# Install 1Password
+brew install 1password
 
 # Install stow and stow files
 brew install stow
