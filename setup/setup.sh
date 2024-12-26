@@ -14,4 +14,6 @@ DOTFILES="$HOME/dot"
 
 # chsh -s /bin/zsh
 
+# Everything else is in a seperate script because GitHub caches files in raw.githubusercontent.com
+# and might not pull the latest version through curl
 source "$DOTFILES/setup/setup-step2.sh"
