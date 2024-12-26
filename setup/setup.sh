@@ -3,8 +3,7 @@
 #  Run with
 #  curl -L https://raw.githubusercontent.com/lisadean/dot/main/setup/setup.sh | bash
 
-echo "Login to App Store & iCloud (press any key to continue)"
-read -r anykey
+read -p "Login to App Store & iCloud before continuing. Press any key when done" anykey
 
 sudo -v
 
