@@ -5,6 +5,15 @@
 # https://github.com/makccr/dot/blob/master/.scripts/macOS
 
 # Open up installed apps to accept prompts and make sure startup apps are started
+# Check these System Settings for apps that need to be approved
+# > Privacy & Security
+# > Login Items and Extensions
+
+## Text
+# Disable smart quotes
+defaults write NSGlobalDomain NSAutomaticQuoteSubstitutionEnabled -bool false
+# Disable smart dashes
+defaults write NSGlobalDomain NSAutomaticDashSubstitutionEnabled -bool false
 
 # Turn off Space rearranging: Preferences > Mission Control > Automatically rearrange Spaces based on most recent use
 
@@ -18,6 +27,7 @@
 
 # Make cursor one notch bigger: Preferences > Accessibility > Display > Cursor
 # Turn off smart quotes and dashes
+
 # Disable "natural" (Lion-style) scrolling
 # Enable full keyboard access for all controls
 # (e.g. enable Tab in modal dialogs)

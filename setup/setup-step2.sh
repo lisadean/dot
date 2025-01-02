@@ -37,7 +37,6 @@ export NVM_DIR=$HOME/.nvm
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 nvm install --lts
 
-sudo -v # extend sudo timeout before installs
 
 taps=(
   sdkman/tap
@@ -91,8 +90,6 @@ for formula in "${casks[@]}"; do
   brew install --cask "$formula" || echo "🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨 Failed to install $formula"
 done
 
-sudo -v # extend sudo timeout before installs
-
 mas_apps=(
   1091189122 # Bear
   1569813296 # 1Password for Safari
@@ -124,7 +121,7 @@ echo " 🎉 DONE 🎉"
 echo "Postinstall tasks:"
 echo "✅ Open 1Password, sign-in and turn on SSH agent Setup > Developer > SSH Agent"
 echo "✅ Copy secrets file to ~/.config/shell/secrets"
-echo "✅ Run setup-mac.sh for Mac settings"
+echo "✅ Run setup-mac.sh for Mac settings (or manually make changes)"
 echo "✅ Reboot"
 
 # Primeagean stuff
