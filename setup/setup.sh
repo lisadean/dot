@@ -1,11 +1,14 @@
-#!/bin/bash -x
+#!/bin/bash
 
 #  Run with
 #  curl -L https://raw.githubusercontent.com/lisadean/dot/main/setup/setup.sh | bash
 
-read -p "Login to App Store & iCloud before continuing. Press any key when done" anykey
-
 sudo -v
+
+echo "Installing xcode CLI, rosetta and accepting licenses"
+if ! command -v xcode-select 1>/dev/null 2>&1; then
+  xcode-select --install
+fi
 
 # Clone dotfiles
 mkdir -p "$HOME/dot"
