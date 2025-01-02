@@ -61,7 +61,6 @@ casks=(
   datadog-agent
   ddpm
   discord
-  disk-expert
   docker
   dropbox
   firefox
@@ -95,6 +94,7 @@ mas_apps=(
   1569813296 # 1Password for Safari
   497799835 # Xcode
   904280696 # Things 3
+  446243721 # Disk Space Analyzer
 )
 echo "Installing App Store Apps"
 for app in "${mas_apps[@]}"; do

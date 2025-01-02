@@ -4,12 +4,15 @@
 # https://github.com/ChristopherA/dotfiles-stow/blob/master/5-macos/.install/macos-setup.d/macos-setup-matthias
 # https://github.com/makccr/dot/blob/master/.scripts/macOS
 
-# Make mouse cursor one size bigger
-defaults write com.apple.universalaccess mouseDriverCursorSize -float 1.5
+## Text
 # Disable smart quotes
 defaults write NSGlobalDomain NSAutomaticQuoteSubstitutionEnabled -bool false
 # Disable smart dashes
 defaults write NSGlobalDomain NSAutomaticDashSubstitutionEnabled -bool false
+
+# Make mouse cursor one size bigger
+defaults write com.apple.universalaccess mouseDriverCursorSize -float 1.5
+
 # Disable "natural" (Lion-style) scrolling
 defaults write NSGlobalDomain com.apple.swipescrolldirection -bool false
 # Enable full keyboard access for all controls
