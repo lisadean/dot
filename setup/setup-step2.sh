@@ -1,4 +1,4 @@
-#!/bin/bash -x
+#!/bin/bash
 
 echo "Installing xcode CLI, rosetta and accepting licenses"
 if ! command -v xcode-select 1>/dev/null 2>&1; then
@@ -36,6 +36,8 @@ echo "Installing latest version of Node"
 export NVM_DIR=$HOME/.nvm
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 nvm install --lts
+
+sudo -v # extend sudo timeout before installs
 
 taps=(
   sdkman/tap
@@ -88,6 +90,8 @@ done
 for formula in "${casks[@]}"; do
   brew install --cask "$formula" || echo "🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨 Failed to install $formula"
 done
+
+sudo -v # extend sudo timeout before installs
 
 mas_apps=(
   1091189122 # Bear
