@@ -4,6 +4,10 @@
 # https://github.com/ChristopherA/dotfiles-stow/blob/master/5-macos/.install/macos-setup.d/macos-setup-matthias
 # https://github.com/makccr/dot/blob/master/.scripts/macOS
 
+# Check these System Settings for apps that need to be approved
+# > Privacy & Security
+# > Login Items and Extensions
+
 ## Text
 # Disable smart quotes
 defaults write NSGlobalDomain NSAutomaticQuoteSubstitutionEnabled -bool false
