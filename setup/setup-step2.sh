@@ -56,6 +56,7 @@ brews=(
   tmux
   tree
   sdkman-cli
+  ngrok
 )
 casks=(
   1password
