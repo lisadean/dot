@@ -57,6 +57,7 @@ brews=(
   tree
   sdkman-cli
   ngrok
+  httpyac
 )
 casks=(
   1password
