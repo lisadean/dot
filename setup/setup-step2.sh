@@ -58,6 +58,14 @@ brews=(
   sdkman-cli
   ngrok
   httpyac
+  # start python build dependencies
+  openssl
+  readline
+  sqlite3
+  xz
+  zlib
+  tcl-tk@8
+  # stop python build dependencies
 )
 casks=(
   1password
@@ -124,6 +132,7 @@ echo "Postinstall tasks:"
 echo "✅ Open 1Password, sign-in and turn on SSH agent Setup > Developer > SSH Agent"
 echo "✅ Copy secrets file to ~/.config/shell/secrets"
 echo "✅ Run setup-mac.sh for Mac settings (or manually make changes)"
+echo "✅ Optional: install python via pyenv install 3.10.4"
 echo "✅ Reboot"
 
 # Primeagean stuff
