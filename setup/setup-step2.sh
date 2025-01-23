@@ -106,6 +106,7 @@ mas_apps=(
   497799835 # Xcode
   904280696 # Things 3
   446243721 # Disk Space Analyzer
+  1303222628 # Paprika Recipe Manager 3
 )
 echo "Installing App Store Apps"
 for app in "${mas_apps[@]}"; do
