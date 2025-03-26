@@ -69,6 +69,7 @@ brews=(
 )
 casks=(
   1password
+  calibre
   datadog-agent
   ddpm
   discord
