@@ -78,11 +78,14 @@ casks=(
   github
   google-chrome
   google-drive
+  figma
   font-fira-code
   keyclu
   logi-options+
+  parallels
   postman
   raindropio
+  raycast
   rectangle-pro
   slack
   spotify
