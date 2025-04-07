@@ -88,6 +88,7 @@ casks=(
   raindropio
   raycast
   rectangle-pro
+  rocket
   slack
   spotify
   visual-studio-code
