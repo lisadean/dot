@@ -31,6 +31,12 @@ if command -v direnv 1>/dev/null 2>&1; then
   eval "$(direnv hook zsh)"
 fi
 
+# fnm -- must be after Homebrew initialization
+if command -v fnm 1>/dev/null 2>&1; then
+  [[ -n $SHELL_DEBUG ]] && echo "DEBUG: Running fnm init"
+  eval "$(fnm env --use-on-cd --shell zsh)"
+fi
+
 # SDKMAN -- must be after Homebrew initialization
 [[ -n $SHELL_DEBUG ]] && echo "DEBUG: Sourcing sdkman-init.sh"
 export SDKMAN_DIR=$(brew --prefix sdkman-cli)/libexec
