@@ -69,6 +69,7 @@ brews=(
 )
 casks=(
   1password
+  android-studio
   calibre
   datadog-agent
   ddpm
