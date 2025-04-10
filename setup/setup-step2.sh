@@ -45,6 +45,7 @@ brews=(
   bat
   direnv
   fzf
+  fnm
   gh
   git
   jq
