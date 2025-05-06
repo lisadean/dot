@@ -11,3 +11,5 @@ export DOTFILES="$HOME/dot"
 export NVM_DIR="$HOME/.nvm"
 export PYENV_ROOT="$HOME/.pyenv"
 export SDKMAN_DIR="$HOME/.sdkman"
+
+export ANDROID_HOME="$HOME/Library/Android/sdk"

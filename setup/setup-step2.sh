@@ -67,6 +67,11 @@ brews=(
   zlib
   tcl-tk@8
   # stop python build dependencies
+  # start native app dependencies
+  watchman
+  rbenv
+  ruby-build
+  # stop native app dependencies
 )
 casks=(
   1password

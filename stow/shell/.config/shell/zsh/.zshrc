@@ -25,6 +25,11 @@ if command -v pyenv 1>/dev/null 2>&1; then
   eval "$(pyenv init -)"
 fi
 
+if command -v rbenv 1>/dev/null 2>&1; then
+  [[ -n $SHELL_DEBUG ]] && echo "DEBUG: Running rbenv init"
+  eval "$(rbenv init - --no-rehash zsh)"
+fi
+
 # direnv extension hook
 if command -v direnv 1>/dev/null 2>&1; then
   [[ -n $SHELL_DEBUG ]] && echo "DEBUG: Running direnv hook"
