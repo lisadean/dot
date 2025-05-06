@@ -21,10 +21,15 @@
 [url "git@FergMain:FergMain"]
     insteadOf = git@github.com:FergMain
 		insteadOf = https://github.com/FergMain
+[url "git@FergSandBox:FergSandBox"]
+    insteadOf = git@github.com:FergSandBox
+		insteadOf = https://github.com/FergSandBox
 [user]
 	name = "Lisa Dean"
 	email = lisa@lisadean.net
 # https://blog.hao.dev/how-to-use-different-git-emails-for-personal-and-work-repositories-on-the-same-machine
 # https://git.sr.ht/~bentinata/bentinata.com/tree/_/item/log/2023-05-11-git-insteadof-includeif.gmi
 [includeIf "hasconfig:remote.*.url:*:FergDigitalCommerce/*"]
+	path = config-work
+[includeIf "hasconfig:remote.*.url:*:FergSandBox/*"]
 	path = config-work
