@@ -54,7 +54,7 @@ alias killjava="killall java"
 # alias server='python -m http.server 8080'
 
 alias simulator='open -a Simulator.app'
-alias startios='react-native run-ios --simulator="iPhone 8 Plus"'
+alias startios='react-native run-ios --simulator="iPhone 16 Pro"'
 
 alias typegen='npm run generate-types'
 alias startns='fixnode; npm start -- --sites=build'
