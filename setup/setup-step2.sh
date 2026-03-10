@@ -43,22 +43,28 @@ taps=(
 )
 brews=(
   bat
+  caddy
+  copilot-cli
   direnv
-  fzf
+  figma
   fnm
+  fzf
   gh
   git
+  httpyac
+  jj
   jq
   mas
+  ngrok
   parallel
+  pnpm
   pyenv
   ripgrep
   tldr
   tmux
   tree
   sdkman-cli
-  ngrok
-  httpyac
+  sf
   # start python build dependencies
   openssl
   readline
