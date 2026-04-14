@@ -95,7 +95,6 @@ casks=(
   figma
   font-fira-code
   keyclu
-  logi-options+
   parallels
   postman
   raindropio
