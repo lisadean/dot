@@ -43,6 +43,7 @@ taps=(
 )
 brews=(
   bat
+  #briss
   caddy
   copilot-cli
   direnv
