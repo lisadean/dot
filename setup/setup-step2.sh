@@ -58,6 +58,7 @@ brews=(
   jq
   mas
   ngrok
+  # ocrmypdf
   parallel
   pnpm
   pyenv
