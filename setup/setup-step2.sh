@@ -48,6 +48,7 @@ brews=(
   copilot-cli
   direnv
   figma
+  # ghostscript
   fnm
   fzf
   gh
