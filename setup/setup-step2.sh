@@ -92,6 +92,7 @@ casks=(
   docker
   dropbox
   firefox
+  ghostty
   github
   google-chrome
   google-drive
