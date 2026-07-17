@@ -11,6 +11,8 @@
 	defaultBranch = main
 [pull]
 	rebase = false
+[push]
+	autoSetupRemote = true
 [url "git@github.com:"]
     insteadOf = https://github.com/
 [url "git@FergDigitalCommerce:FergDigitalCommerce"]
