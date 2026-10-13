@@ -81,6 +81,7 @@ brews=(
   rbenv
   ruby-build
   # stop native app dependencies
+  yamllint
 )
 casks=(
   1password
